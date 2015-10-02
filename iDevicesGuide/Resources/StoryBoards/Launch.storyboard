@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H2L-fe-Cn8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="fXB-j7-CVP">
+            <objects>
+                <viewController id="H2L-fe-Cn8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iDP-bY-LCx"/>
+                        <viewControllerLayoutGuide type="bottom" id="tw7-Ob-Mla"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CO1-xZ-b3d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Apple Watch.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pgz-uA-R8S">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pgz-uA-R8S" firstAttribute="leading" secondItem="CO1-xZ-b3d" secondAttribute="leading" id="EBE-Vb-PyG"/>
+                            <constraint firstItem="Pgz-uA-R8S" firstAttribute="centerX" secondItem="CO1-xZ-b3d" secondAttribute="centerX" id="Q5T-TF-Ia2"/>
+                            <constraint firstItem="Pgz-uA-R8S" firstAttribute="bottom" secondItem="tw7-Ob-Mla" secondAttribute="top" id="QeX-r3-rHc"/>
+                            <constraint firstItem="Pgz-uA-R8S" firstAttribute="centerY" secondItem="CO1-xZ-b3d" secondAttribute="centerY" id="YUT-eq-ycp"/>
+                            <constraint firstAttribute="trailing" secondItem="Pgz-uA-R8S" secondAttribute="trailing" id="Yel-Xy-OdZ"/>
+                            <constraint firstItem="Pgz-uA-R8S" firstAttribute="top" secondItem="iDP-bY-LCx" secondAttribute="bottom" id="fzQ-er-NhK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YUT-eq-ycp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Q7-Ly-XMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apple Watch.png" width="732" height="720"/>
+    </resources>
+</document>
