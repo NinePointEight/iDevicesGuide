@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2FDBB45B02A27535845B6D6C073AB209D2AF55CF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E64F360FC97F6FC0FDFDB9BF64A000711D0ADDD6" : 0,
+    "2FDBB45B02A27535845B6D6C073AB209D2AF55CF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "86526FE0-11A2-43CA-88E0-706113B56739",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E64F360FC97F6FC0FDFDB9BF64A000711D0ADDD6" : "",
+    "2FDBB45B02A27535845B6D6C073AB209D2AF55CF" : "iDevicesGuide\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iDevicesGuide",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iDevicesGuide.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NinePointEight\/iDevicesGuide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2FDBB45B02A27535845B6D6C073AB209D2AF55CF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NinePointEight\/iDeviceGuide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E64F360FC97F6FC0FDFDB9BF64A000711D0ADDD6"
+    }
+  ]
+}

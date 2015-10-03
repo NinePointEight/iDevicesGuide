@@ -1,5 +1,5 @@
 //
-//  deviceCell.m
+//  DeviceCell.m
 //  iDevicesGuide
 //
 //  Created by 成鑫 on 15/10/1.

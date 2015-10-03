@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		500056981BBD34FC00A5CFE3 /* DeviceHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500056961BBD34FC00A5CFE3 /* DeviceHeaderView.m */; settings = {ASSET_TAGS = (); }; };
-		500056A01BBD421A00A5CFE3 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5000569F1BBD421A00A5CFE3 /* DeviceCell.m */; settings = {ASSET_TAGS = (); }; };
-		500056A41BBD7D0700A5CFE3 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 500056A31BBD7D0700A5CFE3 /* Device.m */; settings = {ASSET_TAGS = (); }; };
 		5049C31F1BBAD03900B6FA0E /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5049C31E1BBAD03900B6FA0E /* Launch.storyboard */; settings = {ASSET_TAGS = (); }; };
+		506021601BBFDB54008123DE /* DeviceModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060214B1BBFDB54008123DE /* DeviceModelViewController.m */; settings = {ASSET_TAGS = (); }; };
+		506021611BBFDB54008123DE /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060214E1BBFDB54008123DE /* DeviceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		506021621BBFDB54008123DE /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 506021521BBFDB54008123DE /* DeviceCell.m */; settings = {ASSET_TAGS = (); }; };
+		506021631BBFDB54008123DE /* DeviceHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506021551BBFDB54008123DE /* DeviceHeaderView.m */; settings = {ASSET_TAGS = (); }; };
+		506021641BBFDB54008123DE /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506021571BBFDB54008123DE /* IndicatorView.m */; settings = {ASSET_TAGS = (); }; };
+		506021651BBFDB54008123DE /* LCAnimatedPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 506021591BBFDB54008123DE /* LCAnimatedPageControl.m */; settings = {ASSET_TAGS = (); }; };
+		506021661BBFDB54008123DE /* DeviceModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060215C1BBFDB54008123DE /* DeviceModelCell.m */; settings = {ASSET_TAGS = (); }; };
+		506021671BBFDB54008123DE /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060215F1BBFDB54008123DE /* Device.m */; settings = {ASSET_TAGS = (); }; };
 		506389181BBA90A800B11E91 /* iDevicesGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389171BBA90A800B11E91 /* iDevicesGuideTests.m */; };
 		506389231BBA90A800B11E91 /* iDevicesGuideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389221BBA90A800B11E91 /* iDevicesGuideUITests.m */; };
 		5063894C1BBA926A00B11E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506389411BBA926A00B11E91 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		5063894E1BBA926A00B11E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389461BBA926A00B11E91 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		5063894F1BBA926A00B11E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389491BBA926A00B11E91 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		506389551BBA95AD00B11E91 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389541BBA95AD00B11E91 /* DeviceViewController.m */; settings = {ASSET_TAGS = (); }; };
 		506389571BBA95D200B11E91 /* mainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506389561BBA95D200B11E91 /* mainView.storyboard */; settings = {ASSET_TAGS = (); }; };
 		506389591BBA95FC00B11E91 /* deviceView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506389581BBA95FC00B11E91 /* deviceView.storyboard */; settings = {ASSET_TAGS = (); }; };
 		506389781BBA99AC00B11E91 /* Apple Watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5063895B1BBA99AC00B11E91 /* Apple Watch.png */; settings = {ASSET_TAGS = (); }; };
@@ -48,14 +52,6 @@
 		506389921BBA99AC00B11E91 /* MacBook-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389751BBA99AC00B11E91 /* MacBook-Button.png */; settings = {ASSET_TAGS = (); }; };
 		506389931BBA99AC00B11E91 /* MacBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389761BBA99AC00B11E91 /* MacBook@2x.png */; settings = {ASSET_TAGS = (); }; };
 		506389941BBA99AC00B11E91 /* MacBook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389771BBA99AC00B11E91 /* MacBook@3x.png */; settings = {ASSET_TAGS = (); }; };
-		5063899A1BBAA10600B11E91 /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389971BBAA10600B11E91 /* IndicatorView.m */; settings = {ASSET_TAGS = (); }; };
-		5063899B1BBAA10600B11E91 /* LCAnimatedPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 506389991BBAA10600B11E91 /* LCAnimatedPageControl.m */; settings = {ASSET_TAGS = (); }; };
-		50A48E811BBE817000574F6C /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A48E801BBE817000574F6C /* iPhoneViewController.m */; settings = {ASSET_TAGS = (); }; };
-		50A48E841BBE83B000574F6C /* iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A48E831BBE83B000574F6C /* iPadViewController.m */; settings = {ASSET_TAGS = (); }; };
-		50A48E871BBE858E00574F6C /* iPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A48E861BBE858E00574F6C /* iPodViewController.m */; settings = {ASSET_TAGS = (); }; };
-		50A48E8A1BBE869F00574F6C /* MacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A48E891BBE869F00574F6C /* MacViewController.m */; settings = {ASSET_TAGS = (); }; };
-		50A48E8D1BBED37100574F6C /* DeviceModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A48E8C1BBED37100574F6C /* DeviceModelViewController.m */; settings = {ASSET_TAGS = (); }; };
-		50E7B8601BBEDEE9004365CF /* DeviceModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E7B85F1BBEDEE9004365CF /* DeviceModelCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,13 +72,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		500056961BBD34FC00A5CFE3 /* DeviceHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceHeaderView.m; sourceTree = "<group>"; };
-		500056971BBD34FC00A5CFE3 /* DeviceHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceHeaderView.h; sourceTree = "<group>"; };
-		5000569E1BBD421A00A5CFE3 /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
-		5000569F1BBD421A00A5CFE3 /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
-		500056A21BBD7D0700A5CFE3 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
-		500056A31BBD7D0700A5CFE3 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		5049C31E1BBAD03900B6FA0E /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		5060214A1BBFDB54008123DE /* DeviceModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModelViewController.h; sourceTree = "<group>"; };
+		5060214B1BBFDB54008123DE /* DeviceModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModelViewController.m; sourceTree = "<group>"; };
+		5060214D1BBFDB54008123DE /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		5060214E1BBFDB54008123DE /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		506021511BBFDB54008123DE /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
+		506021521BBFDB54008123DE /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
+		506021541BBFDB54008123DE /* DeviceHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceHeaderView.h; sourceTree = "<group>"; };
+		506021551BBFDB54008123DE /* DeviceHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceHeaderView.m; sourceTree = "<group>"; };
+		506021561BBFDB54008123DE /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		506021571BBFDB54008123DE /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		506021581BBFDB54008123DE /* LCAnimatedPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAnimatedPageControl.h; sourceTree = "<group>"; };
+		506021591BBFDB54008123DE /* LCAnimatedPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAnimatedPageControl.m; sourceTree = "<group>"; };
+		5060215B1BBFDB54008123DE /* DeviceModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModelCell.h; sourceTree = "<group>"; };
+		5060215C1BBFDB54008123DE /* DeviceModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModelCell.m; sourceTree = "<group>"; };
+		5060215E1BBFDB54008123DE /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		5060215F1BBFDB54008123DE /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		506388FA1BBA90A800B11E91 /* iDevicesGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDevicesGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506389131BBA90A800B11E91 /* iDevicesGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDevicesGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		506389171BBA90A800B11E91 /* iDevicesGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDevicesGuideTests.m; sourceTree = "<group>"; };
@@ -95,8 +101,6 @@
 		506389461BBA926A00B11E91 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		506389481BBA926A00B11E91 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		506389491BBA926A00B11E91 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		506389531BBA95AD00B11E91 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
-		506389541BBA95AD00B11E91 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
 		506389561BBA95D200B11E91 /* mainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainView.storyboard; sourceTree = "<group>"; };
 		506389581BBA95FC00B11E91 /* deviceView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = deviceView.storyboard; sourceTree = "<group>"; };
 		5063895B1BBA99AC00B11E91 /* Apple Watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Watch.png"; sourceTree = "<group>"; };
@@ -128,22 +132,6 @@
 		506389751BBA99AC00B11E91 /* MacBook-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook-Button.png"; sourceTree = "<group>"; };
 		506389761BBA99AC00B11E91 /* MacBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook@2x.png"; sourceTree = "<group>"; };
 		506389771BBA99AC00B11E91 /* MacBook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook@3x.png"; sourceTree = "<group>"; };
-		506389961BBAA10600B11E91 /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
-		506389971BBAA10600B11E91 /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
-		506389981BBAA10600B11E91 /* LCAnimatedPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAnimatedPageControl.h; sourceTree = "<group>"; };
-		506389991BBAA10600B11E91 /* LCAnimatedPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAnimatedPageControl.m; sourceTree = "<group>"; };
-		50A48E7F1BBE817000574F6C /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneViewController.h; sourceTree = "<group>"; };
-		50A48E801BBE817000574F6C /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneViewController.m; sourceTree = "<group>"; };
-		50A48E821BBE83B000574F6C /* iPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadViewController.h; sourceTree = "<group>"; };
-		50A48E831BBE83B000574F6C /* iPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadViewController.m; sourceTree = "<group>"; };
-		50A48E851BBE858E00574F6C /* iPodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPodViewController.h; sourceTree = "<group>"; };
-		50A48E861BBE858E00574F6C /* iPodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPodViewController.m; sourceTree = "<group>"; };
-		50A48E881BBE869F00574F6C /* MacViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacViewController.h; sourceTree = "<group>"; };
-		50A48E891BBE869F00574F6C /* MacViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacViewController.m; sourceTree = "<group>"; };
-		50A48E8B1BBED37100574F6C /* DeviceModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModelViewController.h; sourceTree = "<group>"; };
-		50A48E8C1BBED37100574F6C /* DeviceModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModelViewController.m; sourceTree = "<group>"; };
-		50E7B85E1BBEDEE9004365CF /* DeviceModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModelCell.h; sourceTree = "<group>"; };
-		50E7B85F1BBEDEE9004365CF /* DeviceModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModelCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,70 +159,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		500056951BBD34B900A5CFE3 /* DeviceHeaderView */ = {
+		506021481BBFDB54008123DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				506389961BBAA10600B11E91 /* IndicatorView.h */,
-				506389971BBAA10600B11E91 /* IndicatorView.m */,
-				506389981BBAA10600B11E91 /* LCAnimatedPageControl.h */,
-				506389991BBAA10600B11E91 /* LCAnimatedPageControl.m */,
-				500056971BBD34FC00A5CFE3 /* DeviceHeaderView.h */,
-				500056961BBD34FC00A5CFE3 /* DeviceHeaderView.m */,
+				506021491BBFDB54008123DE /* DeviceModelViewController */,
+				5060214C1BBFDB54008123DE /* DeviceViewController */,
 			);
-			name = DeviceHeaderView;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		500056991BBD3B5700A5CFE3 /* HomePageControllers */ = {
+		506021491BBFDB54008123DE /* DeviceModelViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5000569A1BBD3B6C00A5CFE3 /* subClasses */,
-				5000569B1BBD418C00A5CFE3 /* baseClass */,
+				5060214A1BBFDB54008123DE /* DeviceModelViewController.h */,
+				5060214B1BBFDB54008123DE /* DeviceModelViewController.m */,
 			);
-			name = HomePageControllers;
+			path = DeviceModelViewController;
 			sourceTree = "<group>";
 		};
-		5000569A1BBD3B6C00A5CFE3 /* subClasses */ = {
+		5060214C1BBFDB54008123DE /* DeviceViewController */ = {
 			isa = PBXGroup;
 			children = (
-				50A48E7F1BBE817000574F6C /* iPhoneViewController.h */,
-				50A48E801BBE817000574F6C /* iPhoneViewController.m */,
-				50A48E821BBE83B000574F6C /* iPadViewController.h */,
-				50A48E831BBE83B000574F6C /* iPadViewController.m */,
-				50A48E851BBE858E00574F6C /* iPodViewController.h */,
-				50A48E861BBE858E00574F6C /* iPodViewController.m */,
-				50A48E881BBE869F00574F6C /* MacViewController.h */,
-				50A48E891BBE869F00574F6C /* MacViewController.m */,
+				5060214D1BBFDB54008123DE /* DeviceViewController.h */,
+				5060214E1BBFDB54008123DE /* DeviceViewController.m */,
 			);
-			name = subClasses;
+			path = DeviceViewController;
 			sourceTree = "<group>";
 		};
-		5000569B1BBD418C00A5CFE3 /* baseClass */ = {
+		5060214F1BBFDB54008123DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				506389531BBA95AD00B11E91 /* DeviceViewController.h */,
-				506389541BBA95AD00B11E91 /* DeviceViewController.m */,
-				50A48E8B1BBED37100574F6C /* DeviceModelViewController.h */,
-				50A48E8C1BBED37100574F6C /* DeviceModelViewController.m */,
+				506021501BBFDB54008123DE /* DeviceCell */,
+				506021531BBFDB54008123DE /* DeviceHeaderView */,
+				5060215A1BBFDB54008123DE /* DeviceModelCell */,
 			);
-			name = baseClass;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		5000569D1BBD41D300A5CFE3 /* DeviceCell */ = {
+		506021501BBFDB54008123DE /* DeviceCell */ = {
 			isa = PBXGroup;
 			children = (
-				5000569E1BBD421A00A5CFE3 /* DeviceCell.h */,
-				5000569F1BBD421A00A5CFE3 /* DeviceCell.m */,
+				506021511BBFDB54008123DE /* DeviceCell.h */,
+				506021521BBFDB54008123DE /* DeviceCell.m */,
 			);
-			name = DeviceCell;
+			path = DeviceCell;
 			sourceTree = "<group>";
 		};
-		500056A11BBD7CEB00A5CFE3 /* Models */ = {
+		506021531BBFDB54008123DE /* DeviceHeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				500056A21BBD7D0700A5CFE3 /* Device.h */,
-				500056A31BBD7D0700A5CFE3 /* Device.m */,
+				506021541BBFDB54008123DE /* DeviceHeaderView.h */,
+				506021551BBFDB54008123DE /* DeviceHeaderView.m */,
+				506021561BBFDB54008123DE /* IndicatorView.h */,
+				506021571BBFDB54008123DE /* IndicatorView.m */,
+				506021581BBFDB54008123DE /* LCAnimatedPageControl.h */,
+				506021591BBFDB54008123DE /* LCAnimatedPageControl.m */,
 			);
-			name = Models;
+			path = DeviceHeaderView;
+			sourceTree = "<group>";
+		};
+		5060215A1BBFDB54008123DE /* DeviceModelCell */ = {
+			isa = PBXGroup;
+			children = (
+				5060215B1BBFDB54008123DE /* DeviceModelCell.h */,
+				5060215C1BBFDB54008123DE /* DeviceModelCell.m */,
+			);
+			path = DeviceModelCell;
+			sourceTree = "<group>";
+		};
+		5060215D1BBFDB54008123DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5060215E1BBFDB54008123DE /* Device.h */,
+				5060215F1BBFDB54008123DE /* Device.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		506388F11BBA90A800B11E91 = {
@@ -343,19 +342,11 @@
 		5063894B1BBA926A00B11E91 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				500056A11BBD7CEB00A5CFE3 /* Models */,
-				506389951BBAA0D800B11E91 /* Views */,
-				506389501BBA950800B11E91 /* Controllers */,
+				506021481BBFDB54008123DE /* Controllers */,
+				5060214F1BBFDB54008123DE /* Views */,
+				5060215D1BBFDB54008123DE /* Models */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		506389501BBA950800B11E91 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				500056991BBD3B5700A5CFE3 /* HomePageControllers */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 		5063895A1BBA99AC00B11E91 /* iDeviceGuideImagesRes */ = {
@@ -392,25 +383,6 @@
 				506389771BBA99AC00B11E91 /* MacBook@3x.png */,
 			);
 			path = iDeviceGuideImagesRes;
-			sourceTree = "<group>";
-		};
-		506389951BBAA0D800B11E91 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				50E7B85D1BBEDEA6004365CF /* DeviceModelCell */,
-				5000569D1BBD41D300A5CFE3 /* DeviceCell */,
-				500056951BBD34B900A5CFE3 /* DeviceHeaderView */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		50E7B85D1BBEDEA6004365CF /* DeviceModelCell */ = {
-			isa = PBXGroup;
-			children = (
-				50E7B85E1BBEDEE9004365CF /* DeviceModelCell.h */,
-				50E7B85F1BBEDEE9004365CF /* DeviceModelCell.m */,
-			);
-			name = DeviceModelCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -576,20 +548,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5063899B1BBAA10600B11E91 /* LCAnimatedPageControl.m in Sources */,
-				500056981BBD34FC00A5CFE3 /* DeviceHeaderView.m in Sources */,
-				506389551BBA95AD00B11E91 /* DeviceViewController.m in Sources */,
-				500056A41BBD7D0700A5CFE3 /* Device.m in Sources */,
-				500056A01BBD421A00A5CFE3 /* DeviceCell.m in Sources */,
-				50E7B8601BBEDEE9004365CF /* DeviceModelCell.m in Sources */,
+				506021611BBFDB54008123DE /* DeviceViewController.m in Sources */,
+				506021631BBFDB54008123DE /* DeviceHeaderView.m in Sources */,
+				506021661BBFDB54008123DE /* DeviceModelCell.m in Sources */,
+				506021671BBFDB54008123DE /* Device.m in Sources */,
+				506021651BBFDB54008123DE /* LCAnimatedPageControl.m in Sources */,
 				5063894F1BBA926A00B11E91 /* AppDelegate.m in Sources */,
-				50A48E8A1BBE869F00574F6C /* MacViewController.m in Sources */,
-				50A48E841BBE83B000574F6C /* iPadViewController.m in Sources */,
-				50A48E811BBE817000574F6C /* iPhoneViewController.m in Sources */,
-				50A48E871BBE858E00574F6C /* iPodViewController.m in Sources */,
-				50A48E8D1BBED37100574F6C /* DeviceModelViewController.m in Sources */,
-				5063899A1BBAA10600B11E91 /* IndicatorView.m in Sources */,
+				506021601BBFDB54008123DE /* DeviceModelViewController.m in Sources */,
 				5063894E1BBA926A00B11E91 /* main.m in Sources */,
+				506021621BBFDB54008123DE /* DeviceCell.m in Sources */,
+				506021641BBFDB54008123DE /* IndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
