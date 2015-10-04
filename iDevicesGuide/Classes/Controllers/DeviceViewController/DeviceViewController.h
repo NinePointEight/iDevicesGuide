@@ -12,6 +12,7 @@
 #import "deviceCell.h"
 #import "Device.h"
 
+
 @interface DeviceViewController : UIViewController
 
 @property (strong, nonatomic) NSArray *imageArray;

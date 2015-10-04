@@ -7,6 +7,7 @@
 //
 
 #import "DeviceModelViewController.h"
+#import "TWRChart.h"
 
 @interface DeviceModelViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -14,17 +15,56 @@ typedef enum { iPhone, iPad, iPod, Mac } DeviceType;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *capacitiesArray;
+@property(strong, nonatomic) TWRChartView *chartView;
 
 - (void)initDevicesArrayWithDeviceType:(DeviceType)deviceType;
 
+- (void)loadPieChart;
 @end
 
 @implementation DeviceModelViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CGRect screen = [UIScreen mainScreen].bounds;
+    _chartView = [[TWRChartView alloc] initWithFrame:CGRectMake(0, 64, screen.size.width, 300)];
+    _chartView.backgroundColor = [UIColor yellowColor];
+    
+    NSString *jsFilePath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"js"];
+    [_chartView setChartJsFilePath:jsFilePath];
+    
+    [self.view addSubview:_chartView];
+//    [self loadPieChart];
+    _tableView.tableHeaderView = _chartView;
     _tableView.delegate = self;
     _tableView.dataSource = self;
+}
+
+- (void)loadPieChart {
+    // Values
+    NSArray *values = @[@20, @30, @15, @5];
+    
+    // Colors
+    UIColor *color1 = [UIColor colorWithHue:0.5 saturation:0.6 brightness:0.6 alpha:1.0];
+    UIColor *color2 = [UIColor colorWithHue:0.6 saturation:0.6 brightness:0.6 alpha:1.0];
+    UIColor *color3 = [UIColor colorWithHue:0.7 saturation:0.6 brightness:0.6 alpha:1.0];
+    UIColor *color4 = [UIColor colorWithHue:0.8 saturation:0.6 brightness:0.6 alpha:1.0];
+//    UIColor *color1 = [UIColor redColor];
+//    UIColor *color2 = [UIColor yellowColor];
+//    UIColor *color3 = [UIColor greenColor];
+//    UIColor *color4 = [UIColor whiteColor];
+    
+    NSArray *colors = @[color1, color2, color3, color4];
+    
+    // Doughnut Chart
+    TWRCircularChart *pieChart = [[TWRCircularChart alloc] initWithValues:values
+                                                                   colors:colors
+                                                                     type:TWRCircularChartTypeDoughnut
+                                                                 animated:YES];
+    
+    
+    // You can even leverage callbacks when chart animation ends!
+    [_chartView loadCircularChart:pieChart];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE70A69320FFF018AEF2410E53ADCDE /* TWRCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50337992B46BBBFAA1FBF107BE8EC15F /* TWRCharts-dummy.m */; };
+		0BA36AF19713668D53234964462925D0 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE9FB21A33BBB73321A4C7084B82BCA /* Pods-dummy.m */; };
+		0EC91271BB1B8514470A29B0AF13EF9F /* TWRLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9ECCCEA283050E38E75AAAB21D5F21 /* TWRLineChart.m */; };
+		1FE37D39E90A52530A97B80557DC1FA6 /* TWRChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AF5956C1BA443B86A5D7159B636A2A /* TWRChartView.m */; };
+		2E55B868732221EC687A3E3095BB37FF /* TWRBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F48CCE12256EA2EC1E76544309498C /* TWRBarChart.m */; };
+		386B091CCF45E9A0A3639577946A3D82 /* TWRChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C6BC0C4F456657535A19C66BD21228 /* TWRChartView.h */; };
+		3A900E9C093C7825462C3FF6FED6270B /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 69231ADC3217E2349568CBF1360F4907 /* UIColor+HexString.h */; };
+		536F324E406621D9AC7F90C00EB10CA8 /* TWRDataSet+Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 46232568BA0108E412B837A304A7F326 /* TWRDataSet+Strings.h */; };
+		67E6E4319B2E21D00553A442EC410D0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD2CC86A65E10EDC08F9476F7948106 /* Foundation.framework */; };
+		69B1ADADECF419E869159FC67ECF558A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD2CC86A65E10EDC08F9476F7948106 /* Foundation.framework */; };
+		711B459BDE0C24EE70FDC17E31763A13 /* TWRChartBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DD834EFEE5317DDBD5138E844C5512DD /* TWRChartBuilder.m */; };
+		7D5CCB95365E058776500F97A11F8BB6 /* TWRDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DE5109DE1B1D8C580AB4AD591EADA4 /* TWRDataSet.h */; };
+		8DC34CA4BD9C28FCCC96057266AC5A91 /* TWRLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 219CA3FC382D74F1231F1903ACB07AC5 /* TWRLineChart.h */; };
+		9619DFC0194F57442C5C4263C8865308 /* TWRBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = F2669FFA7B17BE768DAE06AE5AC6D0AF /* TWRBarChart.h */; };
+		A0921154888E4AB6C44F1E91AD1C5886 /* TWRCircularChart.h in Headers */ = {isa = PBXBuildFile; fileRef = F14908D0EA128E43BB36A3CADE0F32A6 /* TWRCircularChart.h */; };
+		A22B7D1A0B33A40B858127325B2DD477 /* TWRDataSet+Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = E004DD43CD1A00DFBC26739449ECC088 /* TWRDataSet+Strings.m */; };
+		B2EBA55C31F033D5B485E72DE3592CE0 /* TWRChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 2767698D26125D0D6CD9CDF2DC3BC8E1 /* TWRChart.h */; };
+		DD9009F56536F65FBE84408AB3BCCC13 /* TWRCircularChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F301C146B0AE06D48574F97CC544AD /* TWRCircularChart.m */; };
+		E3780AF59DCF11AF42EBCB8759DC330F /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CBC80E5ADFD4ACAC8EDFB00123F467 /* UIColor+HexString.m */; };
+		F2C3C71026C9E34B74552B0CD6A0CA01 /* TWRDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F8740E5996C4C95691A3BCDF66D3A434 /* TWRDataSet.m */; };
+		F300F211C4F1FCED6C72E5733736C164 /* TWRChartBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEBA498B4C458B2A7D4BD9AAC4EA9DF /* TWRChartBuilder.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C6AC409D1FE02BF2B1EB326C444C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27E0712AA94EBB1FA8C60F2E578D280;
+			remoteInfo = TWRCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BC34F51BB8C5DEA920A09EDC0937BB /* TWRCharts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TWRCharts-Private.xcconfig"; sourceTree = "<group>"; };
+		0AD2CC86A65E10EDC08F9476F7948106 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		219CA3FC382D74F1231F1903ACB07AC5 /* TWRLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRLineChart.h; path = TWRCharts/TWRLineChart.h; sourceTree = "<group>"; };
+		2767698D26125D0D6CD9CDF2DC3BC8E1 /* TWRChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRChart.h; path = TWRCharts/TWRChart.h; sourceTree = "<group>"; };
+		2AEBA498B4C458B2A7D4BD9AAC4EA9DF /* TWRChartBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRChartBuilder.h; path = TWRCharts/TWRChartBuilder.h; sourceTree = "<group>"; };
+		46232568BA0108E412B837A304A7F326 /* TWRDataSet+Strings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TWRDataSet+Strings.h"; path = "TWRCharts/TWRDataSet+Strings.h"; sourceTree = "<group>"; };
+		4C9ECCCEA283050E38E75AAAB21D5F21 /* TWRLineChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRLineChart.m; path = TWRCharts/TWRLineChart.m; sourceTree = "<group>"; };
+		50106F821BC10198001BE683 /* ChartNew.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ChartNew.min.js; path = TWRCharts/ChartNew.min.js; sourceTree = "<group>"; };
+		50337992B46BBBFAA1FBF107BE8EC15F /* TWRCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWRCharts-dummy.m"; sourceTree = "<group>"; };
+		53F301C146B0AE06D48574F97CC544AD /* TWRCircularChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRCircularChart.m; path = TWRCharts/TWRCircularChart.m; sourceTree = "<group>"; };
+		5B6C30BDBA155104E8DA9DF81D3DD878 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		69231ADC3217E2349568CBF1360F4907 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "TWRCharts/UIColor+HexString.h"; sourceTree = "<group>"; };
+		69F48CCE12256EA2EC1E76544309498C /* TWRBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRBarChart.m; path = TWRCharts/TWRBarChart.m; sourceTree = "<group>"; };
+		71DFC91B9C72FCA6ED8A958682532D30 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		73488AADEB1851465B8180E9A80878F6 /* libTWRCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWRCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C6BC0C4F456657535A19C66BD21228 /* TWRChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRChartView.h; path = TWRCharts/TWRChartView.h; sourceTree = "<group>"; };
+		8EE9FB21A33BBB73321A4C7084B82BCA /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9ACBAEC0548D853F01100141A9D3C910 /* TWRCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWRCharts.xcconfig; sourceTree = "<group>"; };
+		B543447B708E6F978C03D04B3A849928 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0E7E463F23A5EE304569CB7B76DA696 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = TWRCharts/index.html; sourceTree = "<group>"; };
+		C1CBC80E5ADFD4ACAC8EDFB00123F467 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "TWRCharts/UIColor+HexString.m"; sourceTree = "<group>"; };
+		C7DE5109DE1B1D8C580AB4AD591EADA4 /* TWRDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRDataSet.h; path = TWRCharts/TWRDataSet.h; sourceTree = "<group>"; };
+		DD834EFEE5317DDBD5138E844C5512DD /* TWRChartBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRChartBuilder.m; path = TWRCharts/TWRChartBuilder.m; sourceTree = "<group>"; };
+		E004DD43CD1A00DFBC26739449ECC088 /* TWRDataSet+Strings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TWRDataSet+Strings.m"; path = "TWRCharts/TWRDataSet+Strings.m"; sourceTree = "<group>"; };
+		ECA6C5C2999CD5A0751141F16930347F /* TWRCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWRCharts-prefix.pch"; sourceTree = "<group>"; };
+		F14908D0EA128E43BB36A3CADE0F32A6 /* TWRCircularChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRCircularChart.h; path = TWRCharts/TWRCircularChart.h; sourceTree = "<group>"; };
+		F2669FFA7B17BE768DAE06AE5AC6D0AF /* TWRBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWRBarChart.h; path = TWRCharts/TWRBarChart.h; sourceTree = "<group>"; };
+		F6AF5956C1BA443B86A5D7159B636A2A /* TWRChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRChartView.m; path = TWRCharts/TWRChartView.m; sourceTree = "<group>"; };
+		F8740E5996C4C95691A3BCDF66D3A434 /* TWRDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWRDataSet.m; path = TWRCharts/TWRDataSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD7B8F21B1D02F403E224B42D77631F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B1ADADECF419E869159FC67ECF558A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827CA2FE5ED46F372BE07DACF6ECB957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E6E4319B2E21D00553A442EC410D0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDF6E71C907E691A9D2E89EE4AEF7B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3185AB3825ED8C9BBC4CCDF6ED48DD77 /* TWRCharts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F3B0332D2CC1C37C7C6427ABE51C7D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBAEC0548D853F01100141A9D3C910 /* TWRCharts.xcconfig */,
+				01BC34F51BB8C5DEA920A09EDC0937BB /* TWRCharts-Private.xcconfig */,
+				50337992B46BBBFAA1FBF107BE8EC15F /* TWRCharts-dummy.m */,
+				ECA6C5C2999CD5A0751141F16930347F /* TWRCharts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TWRCharts";
+			sourceTree = "<group>";
+		};
+		3185AB3825ED8C9BBC4CCDF6ED48DD77 /* TWRCharts */ = {
+			isa = PBXGroup;
+			children = (
+				50106F821BC10198001BE683 /* ChartNew.min.js */,
+				F2669FFA7B17BE768DAE06AE5AC6D0AF /* TWRBarChart.h */,
+				69F48CCE12256EA2EC1E76544309498C /* TWRBarChart.m */,
+				2767698D26125D0D6CD9CDF2DC3BC8E1 /* TWRChart.h */,
+				2AEBA498B4C458B2A7D4BD9AAC4EA9DF /* TWRChartBuilder.h */,
+				DD834EFEE5317DDBD5138E844C5512DD /* TWRChartBuilder.m */,
+				87C6BC0C4F456657535A19C66BD21228 /* TWRChartView.h */,
+				F6AF5956C1BA443B86A5D7159B636A2A /* TWRChartView.m */,
+				F14908D0EA128E43BB36A3CADE0F32A6 /* TWRCircularChart.h */,
+				53F301C146B0AE06D48574F97CC544AD /* TWRCircularChart.m */,
+				C7DE5109DE1B1D8C580AB4AD591EADA4 /* TWRDataSet.h */,
+				F8740E5996C4C95691A3BCDF66D3A434 /* TWRDataSet.m */,
+				46232568BA0108E412B837A304A7F326 /* TWRDataSet+Strings.h */,
+				E004DD43CD1A00DFBC26739449ECC088 /* TWRDataSet+Strings.m */,
+				219CA3FC382D74F1231F1903ACB07AC5 /* TWRLineChart.h */,
+				4C9ECCCEA283050E38E75AAAB21D5F21 /* TWRLineChart.m */,
+				69231ADC3217E2349568CBF1360F4907 /* UIColor+HexString.h */,
+				C1CBC80E5ADFD4ACAC8EDFB00123F467 /* UIColor+HexString.m */,
+				C0E7E463F23A5EE304569CB7B76DA696 /* index.html */,
+				1F3B0332D2CC1C37C7C6427ABE51C7D2 /* Support Files */,
+			);
+			path = TWRCharts;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0AD2CC86A65E10EDC08F9476F7948106 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0FDF6E71C907E691A9D2E89EE4AEF7B7 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				8EE9FB21A33BBB73321A4C7084B82BCA /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				B543447B708E6F978C03D04B3A849928 /* Pods.debug.xcconfig */,
+				71DFC91B9C72FCA6ED8A958682532D30 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6C30BDBA155104E8DA9DF81D3DD878 /* libPods.a */,
+				73488AADEB1851465B8180E9A80878F6 /* libTWRCharts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69289191983D5D5B023B1C196CE0007F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9619DFC0194F57442C5C4263C8865308 /* TWRBarChart.h in Headers */,
+				B2EBA55C31F033D5B485E72DE3592CE0 /* TWRChart.h in Headers */,
+				F300F211C4F1FCED6C72E5733736C164 /* TWRChartBuilder.h in Headers */,
+				386B091CCF45E9A0A3639577946A3D82 /* TWRChartView.h in Headers */,
+				A0921154888E4AB6C44F1E91AD1C5886 /* TWRCircularChart.h in Headers */,
+				536F324E406621D9AC7F90C00EB10CA8 /* TWRDataSet+Strings.h in Headers */,
+				7D5CCB95365E058776500F97A11F8BB6 /* TWRDataSet.h in Headers */,
+				8DC34CA4BD9C28FCCC96057266AC5A91 /* TWRLineChart.h in Headers */,
+				3A900E9C093C7825462C3FF6FED6270B /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		475522B2B65598854B5A504BBD79B32D /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BD550B028546A595C1AAF03DB1DCF7 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				ECD4876FD9844CCA5DA8C0741E4D3BE4 /* Sources */,
+				2AD7B8F21B1D02F403E224B42D77631F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3B44BD149D323F609613680123C4E0 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5B6C30BDBA155104E8DA9DF81D3DD878 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B27E0712AA94EBB1FA8C60F2E578D280 /* TWRCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3ED82A5D11F141A4E737A413E070CD7 /* Build configuration list for PBXNativeTarget "TWRCharts" */;
+			buildPhases = (
+				BB8F3E1307548900440F9AB602F455AF /* Sources */,
+				827CA2FE5ED46F372BE07DACF6ECB957 /* Frameworks */,
+				69289191983D5D5B023B1C196CE0007F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWRCharts;
+			productName = TWRCharts;
+			productReference = 73488AADEB1851465B8180E9A80878F6 /* libTWRCharts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				475522B2B65598854B5A504BBD79B32D /* Pods */,
+				B27E0712AA94EBB1FA8C60F2E578D280 /* TWRCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8F3E1307548900440F9AB602F455AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E55B868732221EC687A3E3095BB37FF /* TWRBarChart.m in Sources */,
+				711B459BDE0C24EE70FDC17E31763A13 /* TWRChartBuilder.m in Sources */,
+				1FE37D39E90A52530A97B80557DC1FA6 /* TWRChartView.m in Sources */,
+				0AE70A69320FFF018AEF2410E53ADCDE /* TWRCharts-dummy.m in Sources */,
+				DD9009F56536F65FBE84408AB3BCCC13 /* TWRCircularChart.m in Sources */,
+				A22B7D1A0B33A40B858127325B2DD477 /* TWRDataSet+Strings.m in Sources */,
+				F2C3C71026C9E34B74552B0CD6A0CA01 /* TWRDataSet.m in Sources */,
+				0EC91271BB1B8514470A29B0AF13EF9F /* TWRLineChart.m in Sources */,
+				E3780AF59DCF11AF42EBCB8759DC330F /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD4876FD9844CCA5DA8C0741E4D3BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA36AF19713668D53234964462925D0 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3B44BD149D323F609613680123C4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWRCharts;
+			target = B27E0712AA94EBB1FA8C60F2E578D280 /* TWRCharts */;
+			targetProxy = 32C6AC409D1FE02BF2B1EB326C444C32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152D7191CCD066E81EC8DFAA9BCC6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BC34F51BB8C5DEA920A09EDC0937BB /* TWRCharts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWRCharts/TWRCharts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7713ED16A4D5C3D8E9EE507B4BF01774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BC34F51BB8C5DEA920A09EDC0937BB /* TWRCharts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWRCharts/TWRCharts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8E8CCB6FB7EF514C1B9F3A44ACBD7D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DFC91B9C72FCA6ED8A958682532D30 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EBCD3E560381A31BCDADF445035BDC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B543447B708E6F978C03D04B3A849928 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06BD550B028546A595C1AAF03DB1DCF7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCD3E560381A31BCDADF445035BDC38 /* Debug */,
+				8E8CCB6FB7EF514C1B9F3A44ACBD7D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3ED82A5D11F141A4E737A413E070CD7 /* Build configuration list for PBXNativeTarget "TWRCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152D7191CCD066E81EC8DFAA9BCC6EDB /* Debug */,
+				7713ED16A4D5C3D8E9EE507B4BF01774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
