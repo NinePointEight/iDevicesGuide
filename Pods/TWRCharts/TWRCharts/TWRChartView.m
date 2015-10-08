@@ -96,6 +96,9 @@
     if ([circularChart isKindOfClass:[TWRCircularChart class]]) {
         _jsFileString = [TWRChartBuilder buildChartWithElement:circularChart];
         [self stringByEvaluatingJavaScriptFromString:_jsFileString];
+        
+        NSLog(@"loadCircularChart: _jsFileString = %@\n\n\n", _jsFileString);
+        
         [self loadIndex];
     } else {
         NSException *exception = [NSException exceptionWithName:@"TWRChartInvalicChartElement"
@@ -120,6 +123,8 @@
     // Set canvas size according to frame dimensions. Leave space for labels at the bottom.
     NSString *canvasString = [NSString stringWithFormat:@"<canvas id=\"canvas\" height=\"%d\" width=\"%d\"></canvas>", (int)CGRectGetHeight(self.frame)-20, (int)CGRectGetWidth(self.frame) - 10];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"<canvas></canvas>" withString:canvasString];
+    
+//    NSLog(@"loadIndex: htmlString = %@\n\n\n", htmlString);
     
     // Load it!
     [self loadHTMLString:htmlString baseURL:[[NSBundle mainBundle] bundleURL]];

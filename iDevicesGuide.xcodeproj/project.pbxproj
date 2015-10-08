@@ -33,11 +33,6 @@
 		5063897E1BBA99AC00B11E91 /* iPad-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389611BBA99AC00B11E91 /* iPad-Button.png */; settings = {ASSET_TAGS = (); }; };
 		5063897F1BBA99AC00B11E91 /* iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389621BBA99AC00B11E91 /* iPad@2x.png */; settings = {ASSET_TAGS = (); }; };
 		506389801BBA99AC00B11E91 /* iPad@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389631BBA99AC00B11E91 /* iPad@3x.png */; settings = {ASSET_TAGS = (); }; };
-		506389811BBA99AC00B11E91 /* iPhone-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389641BBA99AC00B11E91 /* iPhone-1.png */; settings = {ASSET_TAGS = (); }; };
-		506389821BBA99AC00B11E91 /* iPhone-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389651BBA99AC00B11E91 /* iPhone-2.png */; settings = {ASSET_TAGS = (); }; };
-		506389831BBA99AC00B11E91 /* iPhone-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389661BBA99AC00B11E91 /* iPhone-3.png */; settings = {ASSET_TAGS = (); }; };
-		506389841BBA99AC00B11E91 /* iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389671BBA99AC00B11E91 /* iPhone@2x.png */; settings = {ASSET_TAGS = (); }; };
-		506389851BBA99AC00B11E91 /* iPhone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389681BBA99AC00B11E91 /* iPhone@3x.png */; settings = {ASSET_TAGS = (); }; };
 		506389861BBA99AC00B11E91 /* iPod-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389691BBA99AC00B11E91 /* iPod-1.png */; settings = {ASSET_TAGS = (); }; };
 		506389871BBA99AC00B11E91 /* iPod-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5063896A1BBA99AC00B11E91 /* iPod-2.png */; settings = {ASSET_TAGS = (); }; };
 		506389881BBA99AC00B11E91 /* iPod-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5063896B1BBA99AC00B11E91 /* iPod-3.png */; settings = {ASSET_TAGS = (); }; };
@@ -53,8 +48,36 @@
 		506389921BBA99AC00B11E91 /* MacBook-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389751BBA99AC00B11E91 /* MacBook-Button.png */; settings = {ASSET_TAGS = (); }; };
 		506389931BBA99AC00B11E91 /* MacBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389761BBA99AC00B11E91 /* MacBook@2x.png */; settings = {ASSET_TAGS = (); }; };
 		506389941BBA99AC00B11E91 /* MacBook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506389771BBA99AC00B11E91 /* MacBook@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50A90EE01BC3FDD20097CA98 /* DevicesLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A90EDF1BC3FDD20097CA98 /* DevicesLibrary.m */; settings = {ASSET_TAGS = (); }; };
+		50A90EE71BC422430097CA98 /* DeviceTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A90EE61BC422430097CA98 /* DeviceTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		50A90F0B1BC56B480097CA98 /* iPhone_6s_plus_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F011BC56B480097CA98 /* iPhone_6s_plus_button.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F0C1BC56B480097CA98 /* iPhone_6s_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F021BC56B480097CA98 /* iPhone_6s_plus.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F0D1BC56B480097CA98 /* iPhone_6s_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F031BC56B480097CA98 /* iPhone_6s_button.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F0E1BC56B480097CA98 /* iPhone_6s.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F041BC56B480097CA98 /* iPhone_6s.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F0F1BC56B480097CA98 /* iPhone_6_plus_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F051BC56B480097CA98 /* iPhone_6_plus_button.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F101BC56B480097CA98 /* iPhone_6_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F061BC56B480097CA98 /* iPhone_6_plus.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F111BC56B480097CA98 /* iPhone_6_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F071BC56B480097CA98 /* iPhone_6_button.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F121BC56B480097CA98 /* iPhone_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F081BC56B480097CA98 /* iPhone_6.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F131BC56B480097CA98 /* iPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F091BC56B480097CA98 /* iPhone_5s.png */; settings = {ASSET_TAGS = (); }; };
+		50A90F141BC56B480097CA98 /* iPhone_5s_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A90F0A1BC56B480097CA98 /* iPhone_5s_button.png */; settings = {ASSET_TAGS = (); }; };
 		50D2886D1BC120F200455D45 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 50D2886B1BC120F200455D45 /* index.html */; settings = {ASSET_TAGS = (); }; };
 		50D2886E1BC120F200455D45 /* ChartNew.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 50D2886C1BC120F200455D45 /* ChartNew.min.js */; settings = {ASSET_TAGS = (); }; };
+		50D288711BC1706F00455D45 /* iPad icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D2886F1BC1706F00455D45 /* iPad icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288721BC1706F00455D45 /* iPad icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288701BC1706F00455D45 /* iPad icon@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288781BC1710F00455D45 /* MacBook icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288731BC1710F00455D45 /* MacBook icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288791BC1710F00455D45 /* iPhone icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288741BC1710F00455D45 /* iPhone icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2887A1BC1710F00455D45 /* iPhone icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288751BC1710F00455D45 /* iPhone icon@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2887B1BC1710F00455D45 /* iPod icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288761BC1710F00455D45 /* iPod icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2887C1BC1710F00455D45 /* iPod icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288771BC1710F00455D45 /* iPod icon@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288881BC1869F00455D45 /* MacBook icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D2887F1BC1869F00455D45 /* MacBook icon@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288891BC1869F00455D45 /* Gray Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288801BC1869F00455D45 /* Gray Button@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2888A1BC1869F00455D45 /* Gray Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288811BC1869F00455D45 /* Gray Button@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2888B1BC1869F00455D45 /* Green Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288821BC1869F00455D45 /* Green Button@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2888C1BC1869F00455D45 /* Green Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288831BC1869F00455D45 /* Green Button@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2888D1BC1869F00455D45 /* Red Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288841BC1869F00455D45 /* Red Button@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D2888E1BC1869F00455D45 /* Red Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288851BC1869F00455D45 /* Red Button@3x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288911BC1886500455D45 /* Yellow Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D2888F1BC1886500455D45 /* Yellow Button@2x.png */; settings = {ASSET_TAGS = (); }; };
+		50D288921BC1886500455D45 /* Yellow Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D288901BC1886500455D45 /* Yellow Button@3x.png */; settings = {ASSET_TAGS = (); }; };
 		50E7BCE41BC03CD9001A1C12 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E7BCE31BC03CD9001A1C12 /* DeviceDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7D9C6FF41A5D80F3AA855159 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F3163DBC0809EBD77459D3 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -119,11 +142,6 @@
 		506389611BBA99AC00B11E91 /* iPad-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Button.png"; sourceTree = "<group>"; };
 		506389621BBA99AC00B11E91 /* iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad@2x.png"; sourceTree = "<group>"; };
 		506389631BBA99AC00B11E91 /* iPad@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad@3x.png"; sourceTree = "<group>"; };
-		506389641BBA99AC00B11E91 /* iPhone-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-1.png"; sourceTree = "<group>"; };
-		506389651BBA99AC00B11E91 /* iPhone-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-2.png"; sourceTree = "<group>"; };
-		506389661BBA99AC00B11E91 /* iPhone-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-3.png"; sourceTree = "<group>"; };
-		506389671BBA99AC00B11E91 /* iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone@2x.png"; sourceTree = "<group>"; };
-		506389681BBA99AC00B11E91 /* iPhone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone@3x.png"; sourceTree = "<group>"; };
 		506389691BBA99AC00B11E91 /* iPod-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPod-1.png"; sourceTree = "<group>"; };
 		5063896A1BBA99AC00B11E91 /* iPod-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPod-2.png"; sourceTree = "<group>"; };
 		5063896B1BBA99AC00B11E91 /* iPod-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPod-3.png"; sourceTree = "<group>"; };
@@ -139,8 +157,38 @@
 		506389751BBA99AC00B11E91 /* MacBook-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook-Button.png"; sourceTree = "<group>"; };
 		506389761BBA99AC00B11E91 /* MacBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook@2x.png"; sourceTree = "<group>"; };
 		506389771BBA99AC00B11E91 /* MacBook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook@3x.png"; sourceTree = "<group>"; };
+		50A90EDE1BC3FDD20097CA98 /* DevicesLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesLibrary.h; sourceTree = "<group>"; };
+		50A90EDF1BC3FDD20097CA98 /* DevicesLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesLibrary.m; sourceTree = "<group>"; };
+		50A90EE51BC422430097CA98 /* DeviceTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTabBarController.h; sourceTree = "<group>"; };
+		50A90EE61BC422430097CA98 /* DeviceTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTabBarController.m; sourceTree = "<group>"; };
+		50A90F011BC56B480097CA98 /* iPhone_6s_plus_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6s_plus_button.png; sourceTree = "<group>"; };
+		50A90F021BC56B480097CA98 /* iPhone_6s_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6s_plus.png; sourceTree = "<group>"; };
+		50A90F031BC56B480097CA98 /* iPhone_6s_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6s_button.png; sourceTree = "<group>"; };
+		50A90F041BC56B480097CA98 /* iPhone_6s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6s.png; sourceTree = "<group>"; };
+		50A90F051BC56B480097CA98 /* iPhone_6_plus_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6_plus_button.png; sourceTree = "<group>"; };
+		50A90F061BC56B480097CA98 /* iPhone_6_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6_plus.png; sourceTree = "<group>"; };
+		50A90F071BC56B480097CA98 /* iPhone_6_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6_button.png; sourceTree = "<group>"; };
+		50A90F081BC56B480097CA98 /* iPhone_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_6.png; sourceTree = "<group>"; };
+		50A90F091BC56B480097CA98 /* iPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_5s.png; sourceTree = "<group>"; };
+		50A90F0A1BC56B480097CA98 /* iPhone_5s_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_5s_button.png; sourceTree = "<group>"; };
 		50D2886B1BC120F200455D45 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		50D2886C1BC120F200455D45 /* ChartNew.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ChartNew.min.js; sourceTree = "<group>"; };
+		50D2886F1BC1706F00455D45 /* iPad icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad icon@2x.png"; sourceTree = "<group>"; };
+		50D288701BC1706F00455D45 /* iPad icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad icon@3x.png"; sourceTree = "<group>"; };
+		50D288731BC1710F00455D45 /* MacBook icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook icon@2x.png"; sourceTree = "<group>"; };
+		50D288741BC1710F00455D45 /* iPhone icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone icon@2x.png"; sourceTree = "<group>"; };
+		50D288751BC1710F00455D45 /* iPhone icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone icon@3x.png"; sourceTree = "<group>"; };
+		50D288761BC1710F00455D45 /* iPod icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPod icon@2x.png"; sourceTree = "<group>"; };
+		50D288771BC1710F00455D45 /* iPod icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPod icon@3x.png"; sourceTree = "<group>"; };
+		50D2887F1BC1869F00455D45 /* MacBook icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook icon@3x.png"; sourceTree = "<group>"; };
+		50D288801BC1869F00455D45 /* Gray Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gray Button@2x.png"; sourceTree = "<group>"; };
+		50D288811BC1869F00455D45 /* Gray Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gray Button@3x.png"; sourceTree = "<group>"; };
+		50D288821BC1869F00455D45 /* Green Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Button@2x.png"; sourceTree = "<group>"; };
+		50D288831BC1869F00455D45 /* Green Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Button@3x.png"; sourceTree = "<group>"; };
+		50D288841BC1869F00455D45 /* Red Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Button@2x.png"; sourceTree = "<group>"; };
+		50D288851BC1869F00455D45 /* Red Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Button@3x.png"; sourceTree = "<group>"; };
+		50D2888F1BC1886500455D45 /* Yellow Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Button@2x.png"; sourceTree = "<group>"; };
+		50D288901BC1886500455D45 /* Yellow Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Button@3x.png"; sourceTree = "<group>"; };
 		50E7BCE21BC03CD9001A1C12 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
 		50E7BCE31BC03CD9001A1C12 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 		95B5F9EA1455836D9D420018 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +224,7 @@
 		506021481BBFDB54008123DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				50A90EE11BC421EC0097CA98 /* DeviceTabBarController */,
 				50E7BCE11BC03CB7001A1C12 /* DeviceDetailViewController */,
 				506021491BBFDB54008123DE /* DeviceModelViewController */,
 				5060214C1BBFDB54008123DE /* DeviceViewController */,
@@ -247,6 +296,8 @@
 			children = (
 				5060215E1BBFDB54008123DE /* Device.h */,
 				5060215F1BBFDB54008123DE /* Device.m */,
+				50A90EDE1BC3FDD20097CA98 /* DevicesLibrary.h */,
+				50A90EDF1BC3FDD20097CA98 /* DevicesLibrary.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -372,6 +423,32 @@
 		5063895A1BBA99AC00B11E91 /* iDeviceGuideImagesRes */ = {
 			isa = PBXGroup;
 			children = (
+				50A90F011BC56B480097CA98 /* iPhone_6s_plus_button.png */,
+				50A90F021BC56B480097CA98 /* iPhone_6s_plus.png */,
+				50A90F031BC56B480097CA98 /* iPhone_6s_button.png */,
+				50A90F041BC56B480097CA98 /* iPhone_6s.png */,
+				50A90F051BC56B480097CA98 /* iPhone_6_plus_button.png */,
+				50A90F061BC56B480097CA98 /* iPhone_6_plus.png */,
+				50A90F071BC56B480097CA98 /* iPhone_6_button.png */,
+				50A90F081BC56B480097CA98 /* iPhone_6.png */,
+				50A90F091BC56B480097CA98 /* iPhone_5s.png */,
+				50A90F0A1BC56B480097CA98 /* iPhone_5s_button.png */,
+				50D2888F1BC1886500455D45 /* Yellow Button@2x.png */,
+				50D288901BC1886500455D45 /* Yellow Button@3x.png */,
+				50D2887F1BC1869F00455D45 /* MacBook icon@3x.png */,
+				50D288801BC1869F00455D45 /* Gray Button@2x.png */,
+				50D288811BC1869F00455D45 /* Gray Button@3x.png */,
+				50D288821BC1869F00455D45 /* Green Button@2x.png */,
+				50D288831BC1869F00455D45 /* Green Button@3x.png */,
+				50D288841BC1869F00455D45 /* Red Button@2x.png */,
+				50D288851BC1869F00455D45 /* Red Button@3x.png */,
+				50D288731BC1710F00455D45 /* MacBook icon@2x.png */,
+				50D288741BC1710F00455D45 /* iPhone icon@2x.png */,
+				50D288751BC1710F00455D45 /* iPhone icon@3x.png */,
+				50D288761BC1710F00455D45 /* iPod icon@2x.png */,
+				50D288771BC1710F00455D45 /* iPod icon@3x.png */,
+				50D2886F1BC1706F00455D45 /* iPad icon@2x.png */,
+				50D288701BC1706F00455D45 /* iPad icon@3x.png */,
 				5063895B1BBA99AC00B11E91 /* Apple Watch.png */,
 				5063895C1BBA99AC00B11E91 /* BG-Black@2x.png */,
 				5063895D1BBA99AC00B11E91 /* BG-Black@3x.png */,
@@ -381,11 +458,6 @@
 				506389611BBA99AC00B11E91 /* iPad-Button.png */,
 				506389621BBA99AC00B11E91 /* iPad@2x.png */,
 				506389631BBA99AC00B11E91 /* iPad@3x.png */,
-				506389641BBA99AC00B11E91 /* iPhone-1.png */,
-				506389651BBA99AC00B11E91 /* iPhone-2.png */,
-				506389661BBA99AC00B11E91 /* iPhone-3.png */,
-				506389671BBA99AC00B11E91 /* iPhone@2x.png */,
-				506389681BBA99AC00B11E91 /* iPhone@3x.png */,
 				506389691BBA99AC00B11E91 /* iPod-1.png */,
 				5063896A1BBA99AC00B11E91 /* iPod-2.png */,
 				5063896B1BBA99AC00B11E91 /* iPod-3.png */,
@@ -403,6 +475,16 @@
 				506389771BBA99AC00B11E91 /* MacBook@3x.png */,
 			);
 			path = iDeviceGuideImagesRes;
+			sourceTree = "<group>";
+		};
+		50A90EE11BC421EC0097CA98 /* DeviceTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				50A90EE51BC422430097CA98 /* DeviceTabBarController.h */,
+				50A90EE61BC422430097CA98 /* DeviceTabBarController.m */,
+			);
+			name = DeviceTabBarController;
+			path = DeviceTabbarViewController;
 			sourceTree = "<group>";
 		};
 		50E7BCE11BC03CB7001A1C12 /* DeviceDetailViewController */ = {
@@ -539,38 +621,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D288711BC1706F00455D45 /* iPad icon@2x.png in Resources */,
+				50D2888B1BC1869F00455D45 /* Green Button@2x.png in Resources */,
 				50D2886D1BC120F200455D45 /* index.html in Resources */,
+				50D2888C1BC1869F00455D45 /* Green Button@3x.png in Resources */,
 				506389571BBA95D200B11E91 /* mainView.storyboard in Resources */,
+				50D288791BC1710F00455D45 /* iPhone icon@2x.png in Resources */,
+				50D288921BC1886500455D45 /* Yellow Button@3x.png in Resources */,
 				506389591BBA95FC00B11E91 /* deviceView.storyboard in Resources */,
 				5063897C1BBA99AC00B11E91 /* iPad-2.png in Resources */,
-				506389821BBA99AC00B11E91 /* iPhone-2.png in Resources */,
+				50A90F0F1BC56B480097CA98 /* iPhone_6_plus_button.png in Resources */,
+				50A90F121BC56B480097CA98 /* iPhone_6.png in Resources */,
 				506389921BBA99AC00B11E91 /* MacBook-Button.png in Resources */,
+				50D288781BC1710F00455D45 /* MacBook icon@2x.png in Resources */,
+				50D2887A1BC1710F00455D45 /* iPhone icon@3x.png in Resources */,
+				50A90F0D1BC56B480097CA98 /* iPhone_6s_button.png in Resources */,
+				50D288721BC1706F00455D45 /* iPad icon@3x.png in Resources */,
 				5063898B1BBA99AC00B11E91 /* iPod-Nano@3x.png in Resources */,
 				506389891BBA99AC00B11E91 /* iPod-Nano-Button.png in Resources */,
-				506389851BBA99AC00B11E91 /* iPhone@3x.png in Resources */,
 				5049C31F1BBAD03900B6FA0E /* Launch.storyboard in Resources */,
 				506389941BBA99AC00B11E91 /* MacBook@3x.png in Resources */,
 				506389881BBA99AC00B11E91 /* iPod-3.png in Resources */,
 				5063897D1BBA99AC00B11E91 /* iPad-3.png in Resources */,
+				50D288891BC1869F00455D45 /* Gray Button@2x.png in Resources */,
 				506389871BBA99AC00B11E91 /* iPod-2.png in Resources */,
+				50D288911BC1886500455D45 /* Yellow Button@2x.png in Resources */,
 				506389931BBA99AC00B11E91 /* MacBook@2x.png in Resources */,
-				506389811BBA99AC00B11E91 /* iPhone-1.png in Resources */,
+				50A90F0B1BC56B480097CA98 /* iPhone_6s_plus_button.png in Resources */,
+				50A90F131BC56B480097CA98 /* iPhone_5s.png in Resources */,
+				50D2887C1BC1710F00455D45 /* iPod icon@3x.png in Resources */,
+				50A90F0C1BC56B480097CA98 /* iPhone_6s_plus.png in Resources */,
+				50A90F141BC56B480097CA98 /* iPhone_5s_button.png in Resources */,
+				50D2888E1BC1869F00455D45 /* Red Button@3x.png in Resources */,
 				506389911BBA99AC00B11E91 /* MacBook-3.png in Resources */,
+				50A90F111BC56B480097CA98 /* iPhone_6_button.png in Resources */,
 				506389791BBA99AC00B11E91 /* BG-Black@2x.png in Resources */,
 				5063894C1BBA926A00B11E91 /* Assets.xcassets in Resources */,
 				5063898A1BBA99AC00B11E91 /* iPod-Nano@2x.png in Resources */,
+				50A90F0E1BC56B480097CA98 /* iPhone_6s.png in Resources */,
 				5063897A1BBA99AC00B11E91 /* BG-Black@3x.png in Resources */,
 				506389801BBA99AC00B11E91 /* iPad@3x.png in Resources */,
+				50A90F101BC56B480097CA98 /* iPhone_6_plus.png in Resources */,
 				5063897F1BBA99AC00B11E91 /* iPad@2x.png in Resources */,
+				50D2888A1BC1869F00455D45 /* Gray Button@3x.png in Resources */,
 				5063898E1BBA99AC00B11E91 /* MacBook Pro-Button.png in Resources */,
-				506389831BBA99AC00B11E91 /* iPhone-3.png in Resources */,
+				50D2888D1BC1869F00455D45 /* Red Button@2x.png in Resources */,
+				50D2887B1BC1710F00455D45 /* iPod icon@2x.png in Resources */,
 				5063898D1BBA99AC00B11E91 /* MacBook Air-Button.png in Resources */,
 				50106F841BC101D3001BE683 /* index.js in Resources */,
 				506389861BBA99AC00B11E91 /* iPod-1.png in Resources */,
 				5063897B1BBA99AC00B11E91 /* iPad-1.png in Resources */,
-				506389841BBA99AC00B11E91 /* iPhone@2x.png in Resources */,
 				5063898C1BBA99AC00B11E91 /* iPod-Touch-Button.png in Resources */,
 				506389781BBA99AC00B11E91 /* Apple Watch.png in Resources */,
+				50D288881BC1869F00455D45 /* MacBook icon@3x.png in Resources */,
 				50D2886E1BC120F200455D45 /* ChartNew.min.js in Resources */,
 				5063898F1BBA99AC00B11E91 /* MacBook-1.png in Resources */,
 				5063897E1BBA99AC00B11E91 /* iPad-Button.png in Resources */,
@@ -635,10 +738,12 @@
 				506021611BBFDB54008123DE /* DeviceViewController.m in Sources */,
 				506021631BBFDB54008123DE /* DeviceHeaderView.m in Sources */,
 				506021661BBFDB54008123DE /* DeviceModelCell.m in Sources */,
+				50A90EE01BC3FDD20097CA98 /* DevicesLibrary.m in Sources */,
 				506021671BBFDB54008123DE /* Device.m in Sources */,
 				50E7BCE41BC03CD9001A1C12 /* DeviceDetailViewController.m in Sources */,
 				506021651BBFDB54008123DE /* LCAnimatedPageControl.m in Sources */,
 				5063894F1BBA926A00B11E91 /* AppDelegate.m in Sources */,
+				50A90EE71BC422430097CA98 /* DeviceTabBarController.m in Sources */,
 				506021601BBFDB54008123DE /* DeviceModelViewController.m in Sources */,
 				5063894E1BBA926A00B11E91 /* main.m in Sources */,
 				506021621BBFDB54008123DE /* DeviceCell.m in Sources */,

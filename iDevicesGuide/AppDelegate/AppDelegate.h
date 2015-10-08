@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DeviceTabBarController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UIViewController *launchVC;
-@property (strong, nonatomic) UITabBarController *mainTabVC;
+@property (strong, nonatomic) DeviceTabBarController *mainTabVC;
 
 - (void)loadLaunchView;
 - (void)loadMainView;

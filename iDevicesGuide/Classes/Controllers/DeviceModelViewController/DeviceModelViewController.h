@@ -12,8 +12,8 @@
 
 @interface DeviceModelViewController : UIViewController
 
-@property (nonatomic, strong) NSMutableArray *devicesArray;
+@property (nonatomic, copy) NSArray *devicesArray;
 
-- (void)initWithDevice:(Device *) aDevice;
+- (void)initWithDevicesArray:(NSArray *)array;
 
 @end

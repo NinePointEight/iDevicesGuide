@@ -13,7 +13,7 @@
 
 // 存放图片
 @property (nonatomic, strong) UIScrollView                  *scrollView;
-@property (strong, nonatomic) LCAnimatedPageControl         *pageControl;
+@property (nonatomic, strong) LCAnimatedPageControl         *pageControl;
 @property (nonatomic, strong) UIView                        *contentView;
 @property (nonatomic, strong) UIImageView                   *backGroundImage;
 @property (nonatomic, assign) NSUInteger                    picturesCount;

@@ -15,9 +15,8 @@
 
 @interface DeviceViewController : UIViewController
 
-@property (strong, nonatomic) NSArray *imageArray;
-@property (strong, nonatomic) NSArray *deviceArray;
+@property (nonatomic, copy)NSArray *Devices;
 
-- (void)prepareForShowWithDeviceType:(NSString *) aDeviceType;
+- (void)prepareForShow;
 
 @end

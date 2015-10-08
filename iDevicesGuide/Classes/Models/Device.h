@@ -10,13 +10,28 @@
 
 @interface Device : NSObject
 
-@property (nonatomic, copy) NSString *name;
-@property (nonatomic, copy) NSString *imagePath;
-@property (nonatomic, copy) NSString *thumbnailPath;
-@property (nonatomic, assign) NSNumber *capacity;
+@property (nonatomic, copy, readonly) NSString      *name;
+@property (nonatomic, copy, readonly) NSString      *imagePath;
+@property (nonatomic, copy, readonly) NSString      *thumbnailPath;
 
-+ (instancetype)deviceWithName:(NSString *)aName
-                     imagePath:(NSString *)aImagePath
-                 thumbnailPath:(NSString *)aThumbnailPath;
+@property (nonatomic, assign, readonly) NSNumber    *capacity;
+@property (nonatomic, assign, readonly) NSNumber    *releaseCycle;
+
+@property (nonatomic, copy, readonly) NSDictionary  *price;
+
+@property (nonatomic, weak, readonly) NSDate        *releaseDate;
+
+- (instancetype)initWithName:(NSString *)name
+                   imagePath:(NSString *)imagePath
+               thumbnailPath:(NSString *)thumbnailPath
+                    capacity:(NSNumber *)capacity
+                releaseCycle:(NSNumber *)releaseCycle
+                 releaseDate:(NSDate *)releaseDate
+                       price:(NSDictionary *)price;
+
+- (instancetype)initWithName:(NSString *)name
+                     imagePath:(NSString *)imagePath
+                 thumbnailPath:(NSString *)thumbnailPath
+                      capacity:(NSNumber *)capacity;
 
 @end

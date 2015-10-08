@@ -20,6 +20,7 @@
         _colors = colors.mutableCopy;
         _type = type;
         _animated = animated;
+        NSLog(@"CircularChart init success");
     }
     return self;
 }

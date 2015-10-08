@@ -7,37 +7,58 @@
 //
 
 #import "DeviceViewController.h"
+#import "DevicesLibrary.h"
 
 #define Rows_Of_Section 3
 
 @interface DeviceViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-typedef enum { iPhone, iPad, iPod, Mac } DeviceType;
-
+@property (nonatomic, copy) NSMutableArray *imageArray;
 @property (strong, nonatomic) DeviceHeaderView *deviceHeaderView;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
-
-- (void)initImageArrayWithDeviceType:(DeviceType) deviceType;
-- (void)initDeviceArrayWithDeviceType:(DeviceType) deviceType;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
 @implementation DeviceViewController
 
 - (void)viewDidLoad {
+    NSLog(@"DeviceView viewDidLoad被执行");
     [super viewDidLoad];
+    [self prepareForShow];
     CGFloat width = self.view.bounds.size.width;
-    self.deviceHeaderView = [[DeviceHeaderView alloc] initWithFrame:CGRectMake(0, 0, width, 237)
+    self.deviceHeaderView = [[DeviceHeaderView alloc] initWithFrame:CGRectMake(0, 0, width, 187)
                                                              andImageArray:self.imageArray];
+    [self.view addSubview:self.deviceHeaderView];
     self.tableView.tableHeaderView = self.deviceHeaderView;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    NSLog(@"DeviceView viewWillDisappear被执行");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"DeviceView viewDidDisappear被执行");
+    self.view = nil;
+}
+
+#pragma mark - prepare for show
+
+- (void)prepareForShow {
+    NSMutableArray *imgArray = [[NSMutableArray alloc] init];
+    for (NSUInteger index = 0; index < [self.Devices count]; ++index) {
+        NSArray *array = [self.Devices objectAtIndex:index];
+        Device *device = [array firstObject];
+        [imgArray addObject:[UIImage imageNamed:device.imagePath]];
+    }
+    self.imageArray = imgArray.mutableCopy;
+}
+
 #pragma mark - UITableView methods
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.deviceArray count];
+    return [self.Devices count];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -59,9 +80,12 @@ typedef enum { iPhone, iPad, iPod, Mac } DeviceType;
         cell = (DeviceCell *)[vc.view viewWithTag:2];
     }
     
-    if ([self.deviceArray count] > indexPath.row) {
-        Device *device = [self.deviceArray objectAtIndex:indexPath.row];
-        [cell setDeviceThumbnailPath:device.thumbnailPath andDeviceName:device.name];
+    if ([self.Devices count] > indexPath.row) {
+        NSArray *devicesArray = [[self.Devices objectAtIndex:indexPath.row] copy];
+        Device *device = (Device *)[devicesArray firstObject];
+        
+        [cell setDeviceThumbnailPath:device.thumbnailPath
+                       andDeviceName:device.name];
     }
     return cell;
 }
@@ -73,147 +97,15 @@ typedef enum { iPhone, iPad, iPod, Mac } DeviceType;
     [stroyboard instantiateViewControllerWithIdentifier:@"deviceModelPage"];
     
     NSUInteger index = indexPath.row;
-    Device *selectedDevice = [self.deviceArray objectAtIndex:index];
-    [deviceModelVC initWithDevice:selectedDevice];
+    NSArray *selectedArray = [[self.Devices objectAtIndex:index] copy];
+    [deviceModelVC initWithDevicesArray:selectedArray];
+
     [self.navigationController pushViewController:deviceModelVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - prepare for show
-
-- (void)prepareForShowWithDeviceType:(NSString *) aDeviceType {
-    if (aDeviceType != nil) {
-        DeviceType deviceType = -1;
-        if ([aDeviceType isEqualToString:@"iPhone"])        deviceType = iPhone;
-        else if ([aDeviceType isEqualToString:@"iPad"])     deviceType = iPad;
-        else if ([aDeviceType isEqualToString:@"iPod"])     deviceType = iPod;
-        else if ([aDeviceType isEqualToString:@"Mac"])      deviceType = Mac;
-        [self initImageArrayWithDeviceType:deviceType];
-        [self initDeviceArrayWithDeviceType:deviceType];
-    }
-}
-
-#pragma mark - initImages
-
-- (void)initImageArrayWithDeviceType:(DeviceType) deviceType {
-    switch (deviceType) {
-        case iPhone:
-            self.imageArray = [[NSMutableArray alloc] initWithObjects:
-                               [UIImage imageNamed:@"iPhone-1"],
-                               [UIImage imageNamed:@"iPhone-2"],
-                               [UIImage imageNamed:@"iPhone-3"], nil];
-            break;
-        case iPad:
-            self.imageArray = [[NSArray alloc] initWithObjects:
-                               [UIImage imageNamed:@"iPad-1"],
-                               [UIImage imageNamed:@"iPad-2"],
-                               [UIImage imageNamed:@"iPad-3"],nil];
-            break;
-        case iPod:
-            self.imageArray = [[NSArray alloc] initWithObjects:
-                               [UIImage imageNamed:@"iPod-1"],
-                               [UIImage imageNamed:@"iPod-2"],
-                               [UIImage imageNamed:@"iPod-3"], nil];
-            break;
-        case Mac:
-            self.imageArray = [[NSArray alloc] initWithObjects:
-                               [UIImage imageNamed:@"MacBook-1"],
-                               [UIImage imageNamed:@"MacBook-2"],
-                               [UIImage imageNamed:@"MacBook-3"], nil];
-            break;
-        default:
-            NSLog(@"错误的设备类型");
-            break;
-    }
-}
-
-#pragma mark - init Devices' infomations
-
-- (void)initDeviceArrayWithDeviceType:(DeviceType) deviceType {
-    switch (deviceType) {
-        case iPhone: {
-            Device *iPhone5s = [Device deviceWithName:@"iPhone 5s"
-                                            imagePath:@"iPhone-3"
-                                        thumbnailPath:@"iPhone-3"];
-            
-            Device *iPhone6 = [Device deviceWithName:@"iPhone 6"
-                                           imagePath:@"iPhone-2"
-                                       thumbnailPath:@"iPhone-2"];
-            
-            Device *iPhone6p = [Device deviceWithName:@"iPhone 6 plus"
-                                            imagePath:@"iPhone-2"
-                                        thumbnailPath:@"iPhone-2"];
-            
-            Device *iPhone6s = [Device deviceWithName:@"iPhone 6s"
-                                            imagePath:@"iPhone-2"
-                                        thumbnailPath:@"iPhone-2"];
-            
-            Device *iPhone6sp = [Device deviceWithName:@"iPhone 6s plus"
-                                             imagePath:@"iPhone-2"
-                                         thumbnailPath:@"iPhone-2"];
-            
-            self.deviceArray = @[iPhone5s, iPhone6, iPhone6p, iPhone6s, iPhone6sp];
-        } break;
-            
-        case iPad: {
-            Device *iPadmini2 = [Device deviceWithName:@"iPad mini 2"
-                                             imagePath:@"iPad-3"
-                                         thumbnailPath:@"iPad-Button"];
-            
-            Device *iPadmini4 = [Device deviceWithName:@"iPad mini 4"
-                                             imagePath:@"iPad-2"
-                                         thumbnailPath:@"iPad-Button"];
-            
-            Device *iPadAir = [Device deviceWithName:@"iPad Air"
-                                           imagePath:@"iPad-1"
-                                       thumbnailPath:@"iPad-Button"];
-            
-            Device *iPadAir2 = [Device deviceWithName:@"iPad Air 2"
-                                            imagePath:@"iPad-1"
-                                        thumbnailPath:@"iPad-Button"];
-            
-            self.deviceArray = @[iPadmini2, iPadmini4, iPadAir, iPadAir2];
-        } break;
-            
-        case iPod: {
-            Device *iPodTouch = [Device deviceWithName:@"iPod Touch"
-                                             imagePath:@"iPod-Touch-Button"
-                                         thumbnailPath:@"iPod-Touch-Button"];
-            
-            Device *iPodNano = [Device deviceWithName:@"iPod Nano"
-                                            imagePath:@"iPod-Nano-Button"
-                                        thumbnailPath:@"iPod-Nano-Button"];
-            Device *iPodShuffle = [Device deviceWithName:@"iPod Shuffle"
-                                               imagePath:@"iPod-3"
-                                           thumbnailPath:@"iPod-3"];
-            
-            self.deviceArray = @[iPodTouch, iPodNano, iPodShuffle];
-        } break;
-            
-        case Mac: {
-            Device *MacBook = [Device deviceWithName:@"Mac Book"
-                                           imagePath:@"MacBook-1"
-                                       thumbnailPath:@"MacBook-Button"];
-            
-            Device *MacBookAir = [Device deviceWithName:@"Mac Book Air"
-                                              imagePath:@"MacBook-2"
-                                          thumbnailPath:@"MacBook Air-Button"];
-            
-            Device *MacBookPro = [Device deviceWithName:@"Mac Book Pro"
-                                              imagePath:@"MacBook-3"
-                                          thumbnailPath:@"MacBook Pro-Button"];
-            
-            self.deviceArray = @[MacBook, MacBookAir, MacBookPro];
-        } break;
-            
-        default:
-            NSLog(@"错误的设备类型");
-            break;
-    }
 }
 
 @end
