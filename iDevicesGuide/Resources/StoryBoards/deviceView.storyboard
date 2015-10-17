@@ -288,7 +288,7 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray Button.png" translatesAutoresizingMaskIntoConstraints="NO" id="QU3-4r-jX5" userLabel="yellow">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yellow Button.png" translatesAutoresizingMaskIntoConstraints="NO" id="QU3-4r-jX5" userLabel="yellow">
                                         <rect key="frame" x="165" y="86" width="8" height="8"/>
                                         <animations/>
                                         <constraints>
@@ -306,7 +306,7 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray Button.png" translatesAutoresizingMaskIntoConstraints="NO" id="gQZ-ZF-9bM" userLabel="red or green">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Red Button.png" translatesAutoresizingMaskIntoConstraints="NO" id="gQZ-ZF-9bM" userLabel="red or green">
                                         <rect key="frame" x="165" y="115" width="8" height="8"/>
                                         <animations/>
                                         <constraints>
@@ -410,8 +410,14 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="HeaderView" destination="hgt-8d-1L6" id="rIq-nh-nUp"/>
+                        <outlet property="headerView" destination="hgt-8d-1L6" id="F7O-Rw-3r6"/>
+                        <outlet property="markingImage1" destination="IBB-5F-7C8" id="BKB-gH-Xl5"/>
+                        <outlet property="markingImage2" destination="QU3-4r-jX5" id="q8Q-oQ-0u4"/>
+                        <outlet property="markingImage3" destination="gQZ-ZF-9bM" id="4KT-q8-3Jh"/>
+                        <outlet property="releaseCycleLabel" destination="uUl-jq-8Qe" id="hjX-jh-t2V"/>
+                        <outlet property="sinceLastReleaseLabel" destination="Qsf-pT-I5B" id="VPb-Ee-xZf"/>
                         <outlet property="tableView" destination="a3U-EG-VUe" id="xHm-rB-ica"/>
+                        <outlet property="timeToNextReleaseLabel" destination="wD9-lz-Clc" id="y7F-5b-1NI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="unN-pr-hHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -421,5 +427,7 @@
     </scenes>
     <resources>
         <image name="Gray Button.png" width="22" height="22"/>
+        <image name="Red Button.png" width="22" height="22"/>
+        <image name="Yellow Button.png" width="22" height="22"/>
     </resources>
 </document>

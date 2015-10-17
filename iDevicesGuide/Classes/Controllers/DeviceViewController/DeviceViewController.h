@@ -7,11 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DeviceModelViewController.h"
-#import "DeviceHeaderView.h"
-#import "deviceCell.h"
-#import "Device.h"
-
 
 @interface DeviceViewController : UIViewController
 

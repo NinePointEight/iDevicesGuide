@@ -8,7 +8,6 @@
 
 
 #import <Foundation/Foundation.h>
-#import "Device.h"
 
 @interface DevicesLibrary : NSObject
 

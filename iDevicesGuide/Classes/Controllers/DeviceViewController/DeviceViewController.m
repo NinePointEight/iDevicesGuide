@@ -5,7 +5,10 @@
 //  Created by 成鑫 on 15/9/29.
 //  Copyright © 2015年 Deli-Lib. All rights reserved.
 //
-
+#import "DeviceModelViewController.h"
+#import "DeviceHeaderView.h"
+#import "deviceCell.h"
+#import "Device.h"
 #import "DeviceViewController.h"
 #import "DevicesLibrary.h"
 
@@ -13,7 +16,8 @@
 
 @interface DeviceViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, copy) NSMutableArray *imageArray;
+@property (nonatomic, copy) NSArray *imageArray;
+// DeviceHeaderView为自定义View，封装了scrollView,contentView和一个具有动画效果的第三方pageConrtol
 @property (strong, nonatomic) DeviceHeaderView *deviceHeaderView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -70,10 +74,12 @@
     return 1;
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellReuseIdentifier = @"CellReuseIdentifier";
     DeviceCell *cell = (DeviceCell *)[tableView dequeueReusableCellWithIdentifier:cellReuseIdentifier];
     if (cell == nil) {
+        // 生成自定义cell
         NSLog(@"产生新的cell");
         UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"deviceView" bundle:[NSBundle mainBundle]];
         UIViewController *vc = [stroyboard instantiateViewControllerWithIdentifier:@"deviceHomePage"];

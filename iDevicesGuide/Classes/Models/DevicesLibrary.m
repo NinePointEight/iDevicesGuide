@@ -7,6 +7,7 @@
 //
 
 #import "DevicesLibrary.h"
+#import "Device.h"
 
 @interface DevicesLibrary ()
 
@@ -26,8 +27,6 @@
 
 #pragma -mark iPhone library init method
 
-const NSUInteger capacityTypeOfiPhone = 3;
-
 - (void)initiPhoneLibrary {
     NSArray *capacitiesOf_iPhone_5s = @[@16, @32, @64];
     NSArray *capacitiesOf_iPhone_6 = @[@16, @64, @128];
@@ -39,7 +38,7 @@ const NSUInteger capacityTypeOfiPhone = 3;
     NSMutableArray *iPhone_6s_Array = [[NSMutableArray alloc] init];
     NSMutableArray *iPhone_6sp_Array = [[NSMutableArray alloc] init];
     
-    for (NSUInteger index = 0; index < capacityTypeOfiPhone; ++index) {
+    for (NSUInteger index = 0; index < [capacitiesOf_iPhone_5s count]; ++index) {
         Device *iPhone_5s = [[Device alloc] initWithName:@"iPhone 5s"
                                         imagePath:@"iPhone_5s"
                                     thumbnailPath:@"iPhone_5s_button"
@@ -47,33 +46,28 @@ const NSUInteger capacityTypeOfiPhone = 3;
         
         [iPhone_5s_Array addObject:iPhone_5s];
         }
-    
-    for (NSUInteger index = 0; index < capacityTypeOfiPhone; ++index) {
+    for (NSUInteger index = 0; index < [capacitiesOf_iPhone_6 count]; ++index) {
         Device *iPhone_6 = [[Device alloc] initWithName:@"iPhone 6"
                                        imagePath:@"iPhone_6"
                                    thumbnailPath:@"iPhone_6_button"
                                         capacity:[capacitiesOf_iPhone_6 objectAtIndex:index]];
         [iPhone_6_Array addObject:iPhone_6];
     }
-    
-    for (NSUInteger index = 0; index < capacityTypeOfiPhone; ++index) {
+    for (NSUInteger index = 0; index < [capacitiesOf_iPhone_6 count]; ++index) {
         Device *iPhone_6_plus = [[Device alloc] initWithName:@"iPhone 6 plus"
                                        imagePath:@"iPhone_6_plus"
                                    thumbnailPath:@"iPhone_6_plus_button"
                                         capacity:[capacitiesOf_iPhone_6 objectAtIndex:index]];
         [iPhone_6p_Array addObject:iPhone_6_plus];
     }
-    
-    
-    for (NSUInteger index = 0; index < capacityTypeOfiPhone; ++index) {
+    for (NSUInteger index = 0; index < [capacitiesOf_iPhone_6s count]; ++index) {
         Device *iPhone_6s = [[Device alloc] initWithName:@"iPhone 6s"
                                                imagePath:@"iPhone_6s"
                                            thumbnailPath:@"iPhone_6s_button"
                                          capacity:[capacitiesOf_iPhone_6s objectAtIndex:index]];
         [iPhone_6s_Array addObject:iPhone_6s];
     }
-    
-    for (NSUInteger index = 0; index < capacityTypeOfiPhone; ++index) {
+    for (NSUInteger index = 0; index < [capacitiesOf_iPhone_6s count]; ++index) {
         Device *iPhone_6s_plus = [[Device alloc] initWithName:@"iPhone 6s plus"
                                                     imagePath:@"iPhone_6s_plus"
                                                 thumbnailPath:@"iPhone_6s_plus_button"
@@ -102,37 +96,32 @@ const NSUInteger capacityTypeOfiPhone = 3;
     
     for (NSUInteger index = 0; index < [capacitiesOf_iPad_Pro count]; ++index) {
         Device *iPad_Pro = [[Device alloc] initWithName:@"iPad Pro"
-                                        imagePath:@"iPad-3"
-                                    thumbnailPath:@"iPad-3"
+                                        imagePath:@"iPad_Air"
+                                    thumbnailPath:@"iPad_mini2_button"
                                          capacity:[capacitiesOf_iPad_Pro objectAtIndex:index]];
         [iPad_Pro_Array addObject:iPad_Pro];
     }
-    
     for (NSUInteger index = 0; index < [capacitiesOf_iPad_Air2 count]; ++index) {
         Device *iPad_Air2 = [[Device alloc] initWithName:@"iPhone Air 2"
-                                       imagePath:@"iPad-1"
-                                   thumbnailPath:@"iPad-Button"
+                                       imagePath:@"iPad_Air2"
+                                   thumbnailPath:@"iPad_Air2_button"
                                         capacity:[capacitiesOf_iPad_Air2 objectAtIndex:index]];
         [iPad_Air2_Array addObject:iPad_Air2];
     }
-    
     for (NSUInteger index = 0; index < [capacitiesOf_iPad_mini2 count]; ++index) {
         Device *iPad_mini2 = [[Device alloc] initWithName:@"iPad mini 2"
-                                        imagePath:@"iPad-3"
-                                    thumbnailPath:@"iPad-Button"
+                                        imagePath:@"iPad_mini2"
+                                    thumbnailPath:@"iPad_mini2_button"
                                          capacity:[capacitiesOf_iPad_mini2 objectAtIndex:index]];
         [iPad_mini2_Array addObject:iPad_mini2];
     }
-    
-    
     for (NSUInteger index = 0; index < [capacitiesOf_iPad_mini4 count]; ++index) {
         Device *iPad_mini4 = [[Device alloc] initWithName:@"iPad mini 4"
-                                       imagePath:@"iPad-2"
-                                   thumbnailPath:@"iPad-Button"
+                                       imagePath:@"iPad_mini4"
+                                   thumbnailPath:@"iPad_mini4_button"
                                          capacity:[capacitiesOf_iPad_mini4 objectAtIndex:index]];
         [iPad_mini4_Array addObject:iPad_mini4];
     }
-
     self.iPadLibrary = @[iPad_Pro_Array,
                            iPad_Air2_Array,
                            iPad_mini2_Array,
@@ -147,24 +136,21 @@ const NSUInteger capacityTypeOfiPhone = 3;
     
     NSMutableArray *iPod_Touch_Array = [[NSMutableArray alloc] init];
     NSMutableArray *iPod_Nano_Array = [[NSMutableArray alloc] init];
-
     
     for (NSUInteger index = 0; index < [capacitiesOf_iPod_Touch count]; ++index) {
-        Device *iPad_Touch = [[Device alloc] initWithName:@"iPod Touch"
-                                         imagePath:@"iPod-Touch-Button"
-                                     thumbnailPath:@"iPod-Touch-Button"
+        Device *iPad_Touch = [[Device alloc] initWithName:@"iPod_Touch"
+                                         imagePath:@"iPod_Touch_button"
+                                     thumbnailPath:@"iPod_Touch_button"
                                         capacity:[capacitiesOf_iPod_Touch objectAtIndex:index]];
         [iPod_Touch_Array addObject:iPad_Touch];
     }
-    
     for (NSUInteger index = 0; index < [capacitiesOf_iPod_Nano count]; ++index) {
-        Device *iPad_Nano = [[Device alloc] initWithName:@"iPod Nano"
-                                        imagePath:@"iPod-Nano-Button"
-                                    thumbnailPath:@"iPod-Nano-Button"
+        Device *iPad_Nano = [[Device alloc] initWithName:@"iPod_Nano"
+                                        imagePath:@"iPod_Nano_button"
+                                    thumbnailPath:@"iPod_Nano_button"
                                          capacity:[capacitiesOf_iPod_Nano objectAtIndex:index]];
         [iPod_Nano_Array addObject:iPad_Nano];
     }
-    
     self.iPodLibrary = @[iPod_Touch_Array,
                            iPod_Nano_Array];
 }
@@ -172,8 +158,8 @@ const NSUInteger capacityTypeOfiPhone = 3;
 #pragma -mark init Mac library method
 
 - (void)initMacLibrary {
-    NSArray *capacitiesOf_MacBook = @[@128, @256, @512];
-    NSArray *capacitiesOf_MacBook_Air = @[@128, @256, @512];
+    NSArray *capacitiesOf_MacBook = @[@256, @512];
+    NSArray *capacitiesOf_MacBook_Air = @[@128, @256];
     NSArray *capacitiesOf_MacBook_Pro = @[@128, @256, @512];
     
     NSMutableArray *MacBook_Array = [[NSMutableArray alloc] init];
@@ -187,7 +173,6 @@ const NSUInteger capacityTypeOfiPhone = 3;
                                         capacity:[capacitiesOf_MacBook objectAtIndex:index]];
         [MacBook_Array addObject:MacBook];
     }
-    
     for (NSUInteger index = 0; index < [capacitiesOf_MacBook_Air count]; ++index) {
         Device *MacBook_Air = [[Device alloc] initWithName:@"Mac Book Air"
                                            imagePath:@"MacBook-2"
@@ -195,7 +180,6 @@ const NSUInteger capacityTypeOfiPhone = 3;
                                         capacity:[capacitiesOf_MacBook_Air objectAtIndex:index]];
         [MacBook_Air_Array addObject:MacBook_Air];
     }
-    
     for (NSUInteger index = 0; index < [capacitiesOf_MacBook_Pro count]; ++index) {
         Device *MacBook_Pro = [[Device alloc] initWithName:@"Mac Book Pro"
                                            imagePath:@"MacBook-3"
@@ -203,7 +187,6 @@ const NSUInteger capacityTypeOfiPhone = 3;
                                             capacity:[capacitiesOf_MacBook_Pro objectAtIndex:index]];
         [MacBook_Pro_Array addObject:MacBook_Pro];
     }
-    
     self.MacLibrary = @[MacBook_Array,
                            MacBook_Air_Array,
                            MacBook_Pro_Array];

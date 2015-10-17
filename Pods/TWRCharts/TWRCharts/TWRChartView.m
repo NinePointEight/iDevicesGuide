@@ -97,8 +97,6 @@
         _jsFileString = [TWRChartBuilder buildChartWithElement:circularChart];
         [self stringByEvaluatingJavaScriptFromString:_jsFileString];
         
-        NSLog(@"loadCircularChart: _jsFileString = %@\n\n\n", _jsFileString);
-        
         [self loadIndex];
     } else {
         NSException *exception = [NSException exceptionWithName:@"TWRChartInvalicChartElement"

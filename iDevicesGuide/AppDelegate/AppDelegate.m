@@ -35,7 +35,7 @@
     self.window.rootViewController = _mainTabVC;
     
     [self.window addSubview:_launchVC.view];
-    [UIView animateWithDuration:5
+    [UIView animateWithDuration:2
                      animations:^{
                          self.launchVC.view.alpha = 0;
                          self.launchVC.view.transform = CGAffineTransformMakeScale(0.01, 0.01);

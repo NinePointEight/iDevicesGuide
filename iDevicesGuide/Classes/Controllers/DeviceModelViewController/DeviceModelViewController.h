@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Device.h"
-#import "DeviceModelCell.h"
 
 @interface DeviceModelViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *releaseCycleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *sinceLastReleaseLabel;
+@property (weak, nonatomic) IBOutlet UILabel *timeToNextReleaseLabel;
+
+// 图例中用来标识颜色的圆点
+@property (weak, nonatomic) IBOutlet UIImageView *markingImage1;
+@property (weak, nonatomic) IBOutlet UIImageView *markingImage2;
+@property (weak, nonatomic) IBOutlet UIImageView *markingImage3;
+
+// 从library中取得的设备信息
 @property (nonatomic, copy) NSArray *devicesArray;
 
 - (void)initWithDevicesArray:(NSArray *)array;
