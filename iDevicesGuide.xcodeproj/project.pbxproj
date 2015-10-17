@@ -8,16 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		50106F841BC101D3001BE683 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 50106F831BC101D3001BE683 /* index.js */; settings = {ASSET_TAGS = (); }; };
-		5037B40C1BC94F110025C997 /* Cancel BUTTON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4061BC94F110025C997 /* Cancel BUTTON@2x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B40D1BC94F110025C997 /* Cancel BUTTON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4071BC94F110025C997 /* Cancel BUTTON@3x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B40E1BC94F110025C997 /* Sign Up BUTTON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4081BC94F110025C997 /* Sign Up BUTTON@2x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B40F1BC94F110025C997 /* Sign Up BUTTON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4091BC94F110025C997 /* Sign Up BUTTON@3x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B4101BC94F110025C997 /* Sign in BUTTON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B40A1BC94F110025C997 /* Sign in BUTTON@2x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B4111BC94F110025C997 /* Sign in BUTTON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B40B1BC94F110025C997 /* Sign in BUTTON@3x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B4161BC94FC80025C997 /* Create BUTTON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4121BC94FC80025C997 /* Create BUTTON@2x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B4171BC94FC80025C997 /* Create BUTTON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4131BC94FC80025C997 /* Create BUTTON@3x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B41C1BC9501A0025C997 /* Name INPUT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B41A1BC9501A0025C997 /* Name INPUT@2x.png */; settings = {ASSET_TAGS = (); }; };
-		5037B41D1BC9501A0025C997 /* Name INPUT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B41B1BC9501A0025C997 /* Name INPUT@3x.png */; settings = {ASSET_TAGS = (); }; };
+		501D19701BD2538C009A74C9 /* blue background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501D196E1BD2538C009A74C9 /* blue background@2x.png */; settings = {ASSET_TAGS = (); }; };
+		501D19711BD2538C009A74C9 /* blue background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501D196F1BD2538C009A74C9 /* blue background@3x.png */; settings = {ASSET_TAGS = (); }; };
+		501D19741BD2550A009A74C9 /* segment control@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501D19721BD2550A009A74C9 /* segment control@2x.png */; settings = {ASSET_TAGS = (); }; };
+		501D19751BD2550A009A74C9 /* segement control@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 501D19731BD2550A009A74C9 /* segement control@3x.png */; settings = {ASSET_TAGS = (); }; };
+		501D19791BD27BF2009A74C9 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D19781BD27BF2009A74C9 /* CompareViewController.m */; settings = {ASSET_TAGS = (); }; };
+		501D197C1BD2808A009A74C9 /* YahooAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D197B1BD2808A009A74C9 /* YahooAPIConnection.m */; settings = {ASSET_TAGS = (); }; };
+		501D197F1BD282F5009A74C9 /* CurrencyExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D197E1BD282F5009A74C9 /* CurrencyExchange.m */; settings = {ASSET_TAGS = (); }; };
 		5037B4501BCA411B0025C997 /* MacBook Air-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B41F1BCA411B0025C997 /* MacBook Air-Button.png */; settings = {ASSET_TAGS = (); }; };
 		5037B4511BCA411B0025C997 /* MacBook Pro-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4201BCA411B0025C997 /* MacBook Pro-Button.png */; settings = {ASSET_TAGS = (); }; };
 		5037B4521BCA411B0025C997 /* MacBook-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5037B4211BCA411B0025C997 /* MacBook-1.png */; settings = {ASSET_TAGS = (); }; };
@@ -106,16 +103,16 @@
 /* Begin PBXFileReference section */
 		33F3163DBC0809EBD77459D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50106F831BC101D3001BE683 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
-		5037B4061BC94F110025C997 /* Cancel BUTTON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel BUTTON@2x.png"; sourceTree = "<group>"; };
-		5037B4071BC94F110025C997 /* Cancel BUTTON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel BUTTON@3x.png"; sourceTree = "<group>"; };
-		5037B4081BC94F110025C997 /* Sign Up BUTTON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up BUTTON@2x.png"; sourceTree = "<group>"; };
-		5037B4091BC94F110025C997 /* Sign Up BUTTON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up BUTTON@3x.png"; sourceTree = "<group>"; };
-		5037B40A1BC94F110025C997 /* Sign in BUTTON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign in BUTTON@2x.png"; sourceTree = "<group>"; };
-		5037B40B1BC94F110025C997 /* Sign in BUTTON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign in BUTTON@3x.png"; sourceTree = "<group>"; };
-		5037B4121BC94FC80025C997 /* Create BUTTON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create BUTTON@2x.png"; sourceTree = "<group>"; };
-		5037B4131BC94FC80025C997 /* Create BUTTON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create BUTTON@3x.png"; sourceTree = "<group>"; };
-		5037B41A1BC9501A0025C997 /* Name INPUT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Name INPUT@2x.png"; sourceTree = "<group>"; };
-		5037B41B1BC9501A0025C997 /* Name INPUT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Name INPUT@3x.png"; sourceTree = "<group>"; };
+		501D196E1BD2538C009A74C9 /* blue background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue background@2x.png"; sourceTree = "<group>"; };
+		501D196F1BD2538C009A74C9 /* blue background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue background@3x.png"; sourceTree = "<group>"; };
+		501D19721BD2550A009A74C9 /* segment control@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment control@2x.png"; sourceTree = "<group>"; };
+		501D19731BD2550A009A74C9 /* segement control@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segement control@3x.png"; sourceTree = "<group>"; };
+		501D19771BD27BF2009A74C9 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
+		501D19781BD27BF2009A74C9 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
+		501D197A1BD2808A009A74C9 /* YahooAPIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooAPIConnection.h; sourceTree = "<group>"; };
+		501D197B1BD2808A009A74C9 /* YahooAPIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooAPIConnection.m; sourceTree = "<group>"; };
+		501D197D1BD282F5009A74C9 /* CurrencyExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyExchange.h; sourceTree = "<group>"; };
+		501D197E1BD282F5009A74C9 /* CurrencyExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyExchange.m; sourceTree = "<group>"; };
 		5037B41F1BCA411B0025C997 /* MacBook Air-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook Air-Button.png"; sourceTree = "<group>"; };
 		5037B4201BCA411B0025C997 /* MacBook Pro-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook Pro-Button.png"; sourceTree = "<group>"; };
 		5037B4211BCA411B0025C997 /* MacBook-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacBook-1.png"; sourceTree = "<group>"; };
@@ -228,21 +225,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5037B4051BC94EF00025C997 /* Homework ImageRes */ = {
+		501D19761BD27BE2009A74C9 /* CompareViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5037B41A1BC9501A0025C997 /* Name INPUT@2x.png */,
-				5037B41B1BC9501A0025C997 /* Name INPUT@3x.png */,
-				5037B4121BC94FC80025C997 /* Create BUTTON@2x.png */,
-				5037B4131BC94FC80025C997 /* Create BUTTON@3x.png */,
-				5037B4061BC94F110025C997 /* Cancel BUTTON@2x.png */,
-				5037B4071BC94F110025C997 /* Cancel BUTTON@3x.png */,
-				5037B4081BC94F110025C997 /* Sign Up BUTTON@2x.png */,
-				5037B4091BC94F110025C997 /* Sign Up BUTTON@3x.png */,
-				5037B40A1BC94F110025C997 /* Sign in BUTTON@2x.png */,
-				5037B40B1BC94F110025C997 /* Sign in BUTTON@3x.png */,
+				501D19771BD27BF2009A74C9 /* CompareViewController.h */,
+				501D19781BD27BF2009A74C9 /* CompareViewController.m */,
 			);
-			path = "Homework ImageRes";
+			path = CompareViewController;
 			sourceTree = "<group>";
 		};
 		5037B41E1BCA411B0025C997 /* MacBook images */ = {
@@ -334,6 +323,7 @@
 		5037B48B1BCAAFB60025C997 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				501D19761BD27BE2009A74C9 /* CompareViewController */,
 				5037B48F1BCAAFB60025C997 /* DeviceTabbarViewController */,
 				5037B4921BCAAFB60025C997 /* DeviceViewController */,
 				5037B48C1BCAAFB60025C997 /* DeviceModelViewController */,
@@ -416,6 +406,10 @@
 				5060215F1BBFDB54008123DE /* Device.m */,
 				50A90EDE1BC3FDD20097CA98 /* DevicesLibrary.h */,
 				50A90EDF1BC3FDD20097CA98 /* DevicesLibrary.m */,
+				501D197A1BD2808A009A74C9 /* YahooAPIConnection.h */,
+				501D197B1BD2808A009A74C9 /* YahooAPIConnection.m */,
+				501D197D1BD282F5009A74C9 /* CurrencyExchange.h */,
+				501D197E1BD282F5009A74C9 /* CurrencyExchange.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -484,7 +478,6 @@
 		506389421BBA926A00B11E91 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5037B4051BC94EF00025C997 /* Homework ImageRes */,
 				5063895A1BBA99AC00B11E91 /* iDeviceGuideImagesRes */,
 			);
 			path = Images;
@@ -534,6 +527,10 @@
 		5063895A1BBA99AC00B11E91 /* iDeviceGuideImagesRes */ = {
 			isa = PBXGroup;
 			children = (
+				501D19721BD2550A009A74C9 /* segment control@2x.png */,
+				501D19731BD2550A009A74C9 /* segement control@3x.png */,
+				501D196E1BD2538C009A74C9 /* blue background@2x.png */,
+				501D196F1BD2538C009A74C9 /* blue background@3x.png */,
 				5037B41E1BCA411B0025C997 /* MacBook images */,
 				5037B4251BCA411B0025C997 /* iPod images */,
 				5037B42A1BCA411B0025C997 /* iPad images */,
@@ -670,6 +667,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501D19711BD2538C009A74C9 /* blue background@3x.png in Resources */,
 				50D2886D1BC120F200455D45 /* index.html in Resources */,
 				5037B4531BCA411B0025C997 /* MacBook-2.png in Resources */,
 				5037B4631BCA411B0025C997 /* iPhone_5s.png in Resources */,
@@ -677,31 +675,26 @@
 				5037B46D1BCA411B0025C997 /* Gray Button@3x.png in Resources */,
 				506389571BBA95D200B11E91 /* mainView.storyboard in Resources */,
 				506389591BBA95FC00B11E91 /* deviceView.storyboard in Resources */,
+				501D19741BD2550A009A74C9 /* segment control@2x.png in Resources */,
 				5037B46F1BCA411B0025C997 /* Green Button@3x.png in Resources */,
-				5037B40F1BC94F110025C997 /* Sign Up BUTTON@3x.png in Resources */,
-				5037B40C1BC94F110025C997 /* Cancel BUTTON@2x.png in Resources */,
 				5037B4781BCA411B0025C997 /* iPod icon@2x.png in Resources */,
 				5049C31F1BBAD03900B6FA0E /* Launch.storyboard in Resources */,
 				5037B45C1BCA411B0025C997 /* iPad_Air2_button.png in Resources */,
 				5037B46C1BCA411B0025C997 /* Gray Button@2x.png in Resources */,
 				5037B4501BCA411B0025C997 /* MacBook Air-Button.png in Resources */,
-				5037B4161BC94FC80025C997 /* Create BUTTON@2x.png in Resources */,
 				5037B46A1BCA411B0025C997 /* iPhone_6s_plus.png in Resources */,
 				5037B4601BCA411B0025C997 /* iPad_mini4_button.png in Resources */,
 				5037B4691BCA411B0025C997 /* iPhone_6s_button.png in Resources */,
 				5037B4551BCA411B0025C997 /* MacBook-Button.png in Resources */,
-				5037B40E1BC94F110025C997 /* Sign Up BUTTON@2x.png in Resources */,
 				5037B4701BCA411B0025C997 /* Red Button@2x.png in Resources */,
 				5037B4651BCA411B0025C997 /* iPhone_6.png in Resources */,
 				5037B45F1BCA411B0025C997 /* iPad_mini4.png in Resources */,
-				5037B40D1BC94F110025C997 /* Cancel BUTTON@3x.png in Resources */,
 				5037B4731BCA411B0025C997 /* Yellow Button@3x.png in Resources */,
-				5037B4111BC94F110025C997 /* Sign in BUTTON@3x.png in Resources */,
 				5037B4671BCA411B0025C997 /* iPhone_6_plus_button.png in Resources */,
 				5037B4541BCA411B0025C997 /* MacBook-3.png in Resources */,
 				5037B45B1BCA411B0025C997 /* iPad_Air2.png in Resources */,
+				501D19701BD2538C009A74C9 /* blue background@2x.png in Resources */,
 				5037B4721BCA411B0025C997 /* Yellow Button@2x.png in Resources */,
-				5037B4171BC94FC80025C997 /* Create BUTTON@3x.png in Resources */,
 				5037B47A1BCA411B0025C997 /* MacBook icon@2x.png in Resources */,
 				5037B45D1BCA411B0025C997 /* iPad_Air_button.png in Resources */,
 				5037B4711BCA411B0025C997 /* Red Button@3x.png in Resources */,
@@ -711,8 +704,8 @@
 				5037B45E1BCA411B0025C997 /* iPad_mini2_button.png in Resources */,
 				5037B4771BCA411B0025C997 /* iPhone icon@3x.png in Resources */,
 				5037B46E1BCA411B0025C997 /* Green Button@2x.png in Resources */,
+				501D19751BD2550A009A74C9 /* segement control@3x.png in Resources */,
 				5037B4591BCA411B0025C997 /* iPod_Touch_button.png in Resources */,
-				5037B41D1BC9501A0025C997 /* Name INPUT@3x.png in Resources */,
 				5037B4661BCA411B0025C997 /* iPhone_6_button.png in Resources */,
 				5037B47B1BCA411B0025C997 /* MacBook icon@3x.png in Resources */,
 				5037B4511BCA411B0025C997 /* MacBook Pro-Button.png in Resources */,
@@ -721,7 +714,6 @@
 				5037B4741BCA411B0025C997 /* iPad icon@2x.png in Resources */,
 				5063894C1BBA926A00B11E91 /* Assets.xcassets in Resources */,
 				5037B4581BCA411B0025C997 /* iPod_Touch.png in Resources */,
-				5037B41C1BC9501A0025C997 /* Name INPUT@2x.png in Resources */,
 				5037B46B1BCA411B0025C997 /* iPhone_6s_plus_button.png in Resources */,
 				5037B4641BCA411B0025C997 /* iPhone_5s_button.png in Resources */,
 				5037B4521BCA411B0025C997 /* MacBook-1.png in Resources */,
@@ -729,7 +721,6 @@
 				5037B4681BCA411B0025C997 /* iPhone_6s.png in Resources */,
 				5037B4571BCA411B0025C997 /* iPod_Nano_button.png in Resources */,
 				50106F841BC101D3001BE683 /* index.js in Resources */,
-				5037B4101BC94F110025C997 /* Sign in BUTTON@2x.png in Resources */,
 				506389781BBA99AC00B11E91 /* Apple Watch.png in Resources */,
 				50D2886E1BC120F200455D45 /* ChartNew.min.js in Resources */,
 			);
@@ -794,9 +785,12 @@
 				506021661BBFDB54008123DE /* DeviceModelCell.m in Sources */,
 				50A90EE01BC3FDD20097CA98 /* DevicesLibrary.m in Sources */,
 				506021671BBFDB54008123DE /* Device.m in Sources */,
+				501D197F1BD282F5009A74C9 /* CurrencyExchange.m in Sources */,
+				501D19791BD27BF2009A74C9 /* CompareViewController.m in Sources */,
 				506021651BBFDB54008123DE /* LCAnimatedPageControl.m in Sources */,
 				5063894F1BBA926A00B11E91 /* AppDelegate.m in Sources */,
 				5037B4A41BCAAFB60025C997 /* DeviceViewController.m in Sources */,
+				501D197C1BD2808A009A74C9 /* YahooAPIConnection.m in Sources */,
 				5037B4A21BCAAFB60025C997 /* DeviceModelViewController.m in Sources */,
 				5063894E1BBA926A00B11E91 /* main.m in Sources */,
 				506021621BBFDB54008123DE /* DeviceCell.m in Sources */,
@@ -924,7 +918,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iDevicesGuide/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.discovery.iDevicesGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -937,7 +931,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iDevicesGuide/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.discovery.iDevicesGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";

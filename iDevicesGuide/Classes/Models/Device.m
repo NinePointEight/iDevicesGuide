@@ -97,6 +97,12 @@
 }
 
 #pragma -mark 初始化MacBook的价格字典
+- (NSDictionary *)priceDictonary {
+    if ([self.name isEqualToString:@"Mac Book"]) return [self priceOf_MacBook];
+    if ([self.name isEqualToString:@"Mac Book Pro"]) return [self priceOf_MacBookPro];
+    if ([self.name isEqualToString:@"Mac Book Air"]) return [self priceOf_MacBookAir];
+    return nil;
+}
 
 - (NSDictionary *)priceOf_MacBook {
     NSArray *keys = @[@"cnPrice", @"eduPrice", @"usPrice", @"jpPrice", @"hkPrice"];

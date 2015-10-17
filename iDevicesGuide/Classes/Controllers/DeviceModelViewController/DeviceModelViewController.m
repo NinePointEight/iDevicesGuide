@@ -8,6 +8,7 @@
 #import "Device.h"
 #import "DeviceModelCell.h"
 #import "DeviceModelViewController.h"
+#import "CompareViewController.h"
 #import <TWRCharts/TWRChart.h>
 
 @interface DeviceModelViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -71,7 +72,7 @@
     self.timeToNextReleaseLabel.text = [NSString stringWithFormat:@"预计%@天后更新", timeToNextRelease];
     
     // 如果距离下次更新的时长大于更新周期时长的40%，剩余时长用绿色显示，否则用红色
-    if ((timeToNextRelease.doubleValue / releaseCycle.doubleValue) > 0.4) {
+    if ((timeToNextRelease.doubleValue / releaseCycle.doubleValue) > 0.25) {
         colors = @[gray, yellow, green];
         self.markingImage3.image = [UIImage imageNamed:@"Green Button"];
         self.timeToNextReleaseLabel.textColor = green;
@@ -112,7 +113,10 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    // 待开发
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"deviceView" bundle:[NSBundle mainBundle]];
+    CompareViewController *compareVC = [storyboard instantiateViewControllerWithIdentifier:@"comparePage"];
+    compareVC.device = [self.devicesArray objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:compareVC animated:YES];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

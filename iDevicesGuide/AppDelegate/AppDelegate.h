@@ -14,6 +14,7 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UIViewController *launchVC;
 @property (strong, nonatomic) DeviceTabBarController *mainTabVC;
+@property (strong, nonatomic) NSMutableArray * tempArray;
 
 - (void)loadLaunchView;
 - (void)loadMainView;

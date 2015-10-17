@@ -17,6 +17,7 @@
 @interface DeviceViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, copy) NSArray *imageArray;
+
 // DeviceHeaderView为自定义View，封装了scrollView,contentView和一个具有动画效果的第三方pageConrtol
 @property (strong, nonatomic) DeviceHeaderView *deviceHeaderView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

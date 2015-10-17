@@ -26,10 +26,7 @@
 - (NSNumber *)sinceLastRelease;
 - (NSNumber *)timeToNextRelease;
 
-- (NSDictionary *)priceOf_MacBook;
-- (NSDictionary *)priceOf_MacBookPro;
-- (NSDictionary *)priceOf_MacBookAir;
-
+- (NSDictionary *)priceDictonary;
 @end
 
 /*  暂时用不到的方法   */
